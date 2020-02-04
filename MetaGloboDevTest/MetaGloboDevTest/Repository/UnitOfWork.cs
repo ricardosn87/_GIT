@@ -1,4 +1,5 @@
 ﻿using MetaGloboDevTest.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,7 @@ namespace MetaGloboDevTest.Repository
         public UnitOfWork(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
+            _appDbContext.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         public void Commit()
@@ -34,6 +36,6 @@ namespace MetaGloboDevTest.Repository
         public void Dispose()
         {
             _appDbContext.Dispose();
-        }
+        }    
     }
 }

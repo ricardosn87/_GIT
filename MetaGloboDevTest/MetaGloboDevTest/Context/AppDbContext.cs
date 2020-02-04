@@ -18,5 +18,6 @@ namespace MetaGloboDevTest.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> contextOptions) : base(contextOptions) { }
         public DbSet<Contato> Contatos { get; set; }
+       
     }
 }

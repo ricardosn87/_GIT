@@ -8,7 +8,9 @@ namespace MetaGloboDevTest.Repository
 {
     public interface IContatoRepository:IRepository<Contato>
     {
-        IEnumerable<Contato> GetAll();       
-       
+        IEnumerable<Contato> GetAll();
+
+        Task<List<T>> FindPaged<T>(int page, int pageSize) where T : class;
+
     }
 }

@@ -43,9 +43,9 @@ namespace MetaGloboDevTest.Controllers
 
         [HttpGet]
         [ServiceFilter(typeof(ApiLoggingFilter))]
-        public ActionResult<IEnumerable<ContatoDTO>> GetAll()
-        {
-            var contatos = _appDbContext.ContatoRepository.GetAll().ToList();
+        public async Task<ActionResult<IEnumerable<ContatoDTO>>> GetAll(int page = 0, int pageSize = 10)
+        {          
+            var contatos = await _appDbContext.ContatoRepository.FindPaged<Contato>(page, pageSize);
             var contatosDTO = _mapper.Map<List<ContatoDTO>>(contatos);
             return contatosDTO;
         }
@@ -104,12 +104,12 @@ namespace MetaGloboDevTest.Controllers
                     return NoContent();
                 }
 
-                //var contatoResp = _appDbContext.ContatoRepository.GetById(x => x.ContatoId == contatoUpdateDTO.ContatoId);
-                //if (contatoResp == null)
-                //{
-                //    return NotFound();
-                //}
-                
+                var contatoResp = _appDbContext.ContatoRepository.GetById(x => x.ContatoId == contatoUpdateDTO.ContatoId);
+                if (contatoResp == null)
+                {
+                    return NotFound();
+                }                
+
 
                 var contato = _mapper.Map<Contato>(contatoUpdateDTO);
 

@@ -77,8 +77,7 @@ namespace MetaGloboDevTest
                 {
                     Version = " 1.0.0",
                     Title = "Contato",
-                    Description = " API para um serviço de gestão de contatos",
-                    TermsOfService = new Uri("https://macoratti.net/terms"),
+                    Description = " API para um serviço de gestão de contatos",                   
                     Contact = new OpenApiContact
                     {
                         Name = "Developer Team",
