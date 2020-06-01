@@ -34,5 +34,10 @@ namespace Portifolio.Dominio.Services
         {
             return _empresaRepository.GetAllEmpresaByEmail(email);
         }
+
+        public bool ChangeEmploy(AlterarEmpresaDTO alterarEmpresaDTO)
+        {
+            return _empresaRepository.ChangeEmploy(alterarEmpresaDTO);
+        }
     }
 }

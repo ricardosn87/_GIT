@@ -103,6 +103,29 @@ namespace Portifolio.Api.Site.Controllers
             }
         }
 
+        [HttpPut("ChangeEmploy")]
+        public IActionResult ChangeEmploy(AlterarEmpresaRequest alterarEmpresaRequest)
+        {
+            try
+            {
+                var alterarEmpresaDTO = new AlterarEmpresaDTO(
+                                         alterarEmpresaRequest.Cnpj,
+                                         alterarEmpresaRequest.RazaoSocial,
+                                         alterarEmpresaRequest.NomeFantasia);
+
+                if (alterarEmpresaDTO.Invalid)
+                {
+                    _notificationContext.AddNotifications(alterarEmpresaDTO.ValidationResult);
+                    return BadRequest(_notificationContext.Notifications);
+                }
+                return Ok(_iEmpresaService.ChangeEmploy(alterarEmpresaDTO));
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         // DELETE api/<controller>/5
         [HttpDelete("{id}")]
         public void Delete(int id)

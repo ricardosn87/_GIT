@@ -112,5 +112,27 @@ namespace Portifolio.Data.Repository
                 throw new Exception(ex.Message);
             }
         }
+
+        public bool ChangeEmploy(AlterarEmpresaDTO alterarEmpresaDTO)
+        {
+            try
+            {
+                using (var db = new PortifolioContext())
+                {
+                    var d = db.Empresa.FirstOrDefault(x => x.Cnpj == alterarEmpresaDTO.Cnpj);
+                    d.RazaoSocial = alterarEmpresaDTO.RazaoSocial;
+                    d.NomeFantasia = alterarEmpresaDTO.NomeFantasia;
+
+                    db.SaveChanges();
+
+                    return true;
+
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

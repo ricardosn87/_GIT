@@ -12,5 +12,6 @@ namespace Portifolio.Dominio.Interfaces.Services
         Empresa GetByCNPJ(string cnpj);
         void SaveUsuarioEmpresa(string email, string cnpj);
         List<Empresa> GetAllEmpresaByEmail(string email);
+        bool ChangeEmploy(AlterarEmpresaDTO alterarEmpresaDTO);
     }
 }

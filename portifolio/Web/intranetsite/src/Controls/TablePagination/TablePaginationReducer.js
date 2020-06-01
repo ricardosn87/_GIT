@@ -3,6 +3,7 @@ import { actionsTypes } from './ActionsTypes'
 const defaultState = {
     ListaEmpresaFilter: 1,
     FilterTable: []
+
 }
 
 const reducers = (state = defaultState, action) => {
@@ -18,7 +19,7 @@ const reducers = (state = defaultState, action) => {
                 ...state,
                 FilterTable: action.FilterTable
             }
-
+    
         default:
             return state;
     }

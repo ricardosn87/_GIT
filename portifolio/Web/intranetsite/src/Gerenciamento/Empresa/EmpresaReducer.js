@@ -1,9 +1,12 @@
+import { actionsTypes } from '../../Controls/TablePagination/ActionsTypes'
+
 let defaultState = {
     EmpresaGetByCNPJ: '',
     Load: false,
     CadastroEmpresa: false,
     CadastroEmpresaErro: false,
-    ListaEmpresa: []
+    ListaEmpresa: [],
+    ChangeCompany:false
 }
 
 
@@ -46,6 +49,14 @@ export default (state = defaultState, action) => {
                 ...state,
                 Load: action.Load
             }
+
+            case actionsTypes.CHANGE_COMPANY:
+                return {
+                    ...state,
+                    ChangeCompany: action.ChangeCompany
+                }
+
+       
 
         default:
             return state;

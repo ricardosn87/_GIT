@@ -1,11 +1,15 @@
 
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState, useSelector, useEffect } from "react";
+import { useState, useEffect } from "react";
+import { useSelector } from 'react-redux'
 import { SearchTableDTO } from './SearchTableDTO';
 import { useDispatch } from 'react-redux'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import * as Actions from '../../Gerenciamento/Empresa/EmpresaActions'
+import { ChangeCompanyDTO } from './ChangeCompanyDTO';
+
 
 export default function TableData(props) {
 
@@ -16,13 +20,15 @@ export default function TableData(props) {
     const [valorNomeFantasia, SetValorNomeFantasia] = useState(null);
     const [show, SetClose] = useState(false);
 
-    const [valorCNPJEdit,SetValorCNPJEdit] = useState(null);
-    const [valorRazaoSocialEdit,SetValorRazaoSocialEdit] = useState(null);
-    const [valorNomeFantasiaEdit,SetValorNomeFantasiaEdit] = useState(null);
+    const [valorCNPJEdit, SetValorCNPJEdit] = useState(null);
+    const [valorRazaoSocialEdit, SetValorRazaoSocialEdit] = useState(null);
+    const [valorNomeFantasiaEdit, SetValorNomeFantasiaEdit] = useState(null);
+
+    const changeCompany = useSelector(State => State.EmpresaState.ChangeCompany)
 
     function handleClose() {
         SetClose(false)
-        
+        dispatch({ type: 'CHANGE_COMPANY', ChangeCompany: false })
     }
 
     const SearchTable = (valorCNPJ, valorRazaoSocial, valorNomeFantasia) => {
@@ -37,8 +43,20 @@ export default function TableData(props) {
         SetValorCNPJEdit(CNPJ)
         SetValorRazaoSocialEdit(RazaoSocial)
         SetValorNomeFantasiaEdit(NomeFantasia)
+    }
 
-        
+    const ChangeRazaoSocial = (RazaoSocial) => {
+        SetValorRazaoSocialEdit(RazaoSocial)
+    }
+
+    const ChangeNomeFantasia = (NomeFantasia) => {
+        SetValorNomeFantasiaEdit(NomeFantasia)
+    }
+
+    function SaveChanges() {
+        var changeCompanyDTO = new ChangeCompanyDTO(valorCNPJEdit, valorRazaoSocialEdit, valorNomeFantasiaEdit)
+        Actions.ActionChangeCompany(dispatch, changeCompanyDTO)
+
     }
 
 
@@ -88,30 +106,75 @@ export default function TableData(props) {
                 <Modal.Header closeButton>
                     <Modal.Title>Alteração de Empresa.</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                    <form>
-                        <div className="form-group">
-                            <label for="formGroupExampleInput">CNPJ</label>
-                            <input disabled={true} type="text" value={valorCNPJEdit} className="form-control" id="formGroupExampleInput" placeholder="Example input" />
-                        </div>
-                        <div className="form-group">
-                            <label for="formGroupExampleInput2">Razão Social</label>
-                            <input type="text" value={valorRazaoSocialEdit} className="form-control" id="formGroupExampleInput2" placeholder="Another input" />
-                        </div>
-                        <div className="form-group">
-                            <label for="formGroupExampleInput2">Nome Fantasia</label>
-                            <input type="text" value={valorNomeFantasiaEdit} className="form-control" id="formGroupExampleInput2" placeholder="Another input" />
-                        </div>
-                    </form>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Fechar
-                    </Button>
-                    <Button variant="primary" >
-                        Salvar Alterações
-                    </Button>
-                </Modal.Footer>
+                <div>
+                    {changeCompany === false &&
+                        <>
+                            <Modal.Body>
+                                <form>
+                                    <div className="form-group">
+                                        <label for="formGroupExampleInput">CNPJ</label>
+                                        <input disabled={true} type="text" value={valorCNPJEdit} className="form-control" id="formGroupExampleInput" placeholder="Example input" />
+                                    </div>
+                                    <div className="form-group">
+                                        <label for="formGroupExampleInput2">Razão Social</label>
+                                        <input type="text" onChange={e => ChangeRazaoSocial(e.target.value)} value={valorRazaoSocialEdit} className="form-control" id="formGroupExampleInput2" placeholder="Another input" />
+                                    </div>
+                                    <div className="form-group">
+                                        <label for="formGroupExampleInput2">Nome Fantasia</label>
+                                        <input type="text" onChange={e => ChangeNomeFantasia(e.target.value)} value={valorNomeFantasiaEdit} className="form-control" id="formGroupExampleInput2" placeholder="Another input" />
+                                    </div>
+                                </form>
+                            </Modal.Body>
+                            <Modal.Footer>
+                                <Button variant="secondary" onClick={handleClose}>
+                                    Fechar
+                            </Button>
+                                <Button variant="primary" onClick={SaveChanges} >
+                                    Salvar Alterações
+                            </Button>
+                            </Modal.Footer>
+                        </>
+                    }
+                    {changeCompany === true &&
+                        <>
+                            <Modal.Body>
+                                <form>
+                                    <div className="alert alert-success" role="alert">
+                                        <h4 className="alert-heading">Sucesso!</h4>
+                                        <p>Atualização de empresa realizado com sucesso.</p>
+                                        <hr />
+                                    </div>
+                                </form>
+                            </Modal.Body>
+                            <Modal.Footer>
+                                <Button variant="secondary" onClick={handleClose}>
+                                    Fechar
+                                </Button>
+                            </Modal.Footer>
+                        </>
+                    }
+
+                    {changeCompany === null &&
+                        <>
+                            <Modal.Body>
+                                <form>
+                                    <div className="alert alert-danger" role="alert">
+                                        <h4 className="alert-heading">Erro!</h4>
+                                        <p>Atualização de empresa retornou erro.</p>
+                                        <hr />
+                                    </div>
+                                </form>
+                            </Modal.Body>
+                            <Modal.Footer>
+                                <Button variant="secondary" onClick={handleClose}>
+                                    Fechar
+                                </Button>
+                            </Modal.Footer>
+                        </>
+                    }
+
+                </div>
+
             </Modal>
         </div>
     )

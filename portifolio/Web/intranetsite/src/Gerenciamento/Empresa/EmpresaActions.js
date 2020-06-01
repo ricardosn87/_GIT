@@ -1,5 +1,6 @@
 import axios from 'axios'
-import { UserProfile } from '../../Usuario/UserProfile/UserProfile'
+import { useDispatch } from 'react-redux'
+import { UserProfile } from './../../Usuario/UserProfile/UserProfile';
 
 const URL_Empresa = 'api/empresa/'
 
@@ -92,7 +93,7 @@ export function ActionTentarNovamente() {
 
 export function ActionGetAllEmpresaByEmail(email) {
 
-   
+
 
     return async (dispatch) => {
         dispatch(SetLoad(true))
@@ -109,3 +110,30 @@ export function SetGetAllEmpresaByEmail(data) {
         ListaEmpresa: data
     }
 }
+
+export async function ActionChangeCompany(dispatch, changeCompanyDTO) {
+
+    const company = {
+        Cnpj : changeCompanyDTO.Cnpj,
+        RazaoSocial : changeCompanyDTO.RazaoSocial,
+        NomeFantasia : changeCompanyDTO.NomeFantasia
+    }
+
+    try{
+        const resp = await axios.put(URL_Empresa + "ChangeEmploy", company)
+        dispatch({ type: 'CHANGE_COMPANY', ChangeCompany: resp.data })
+    }
+    catch(error){
+        dispatch({ type: 'CHANGE_COMPANY', ChangeCompany: null })
+    }    
+}
+
+export async function ReloadPageCompanylist(){
+
+    var userProfile = new UserProfile();
+    let email = userProfile.GetLoginStorage();
+
+    ActionGetAllEmpresaByEmail(email);
+}
+
+
