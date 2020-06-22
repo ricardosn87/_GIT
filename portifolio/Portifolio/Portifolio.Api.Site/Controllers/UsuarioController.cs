@@ -7,6 +7,7 @@ using Portifolio.Dominio.Notifications.Usuario;
 using Portifolio.Util.Email;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Portifolio.Api.Site.Controllers
 {
@@ -39,18 +40,38 @@ namespace Portifolio.Api.Site.Controllers
             _emailSender = emailSender;
         }
 
-        // GET: api/Usuario
-        [HttpGet]
-        public IEnumerable<string> Get()
+        [HttpPost("FilterGetAllEmployees")]
+        public IActionResult FilterGetAllEmployees(FilterGetAllEmployeesRequest filterGetAllEmployeesRequest)
         {
-            return new string[] { "value1", "value2" };
-        }
+            try
+            {
+                var filterGetAllEmployeesDTO = new FilterGetAllEmployeesDTO(
+                    filterGetAllEmployeesRequest.EmailUsuario,
+                    filterGetAllEmployeesRequest.Cpnj,
+                    filterGetAllEmployeesRequest.RazaoSocial,
+                    filterGetAllEmployeesRequest.NomeFantasia,
+                    filterGetAllEmployeesRequest.Ativo,
+                    filterGetAllEmployeesRequest.Cpf,
+                    filterGetAllEmployeesRequest.DataCadastro,
+                    filterGetAllEmployeesRequest.DataBloqueio,
+                    filterGetAllEmployeesRequest.Admin,
+                    filterGetAllEmployeesRequest.EmailFuncionario,
+                    filterGetAllEmployeesRequest.NomeFuncionario,
+                    filterGetAllEmployeesRequest.FuncionarioAtivo
+                    );
 
-        // GET: api/Usuario/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
+                if (filterGetAllEmployeesDTO.Invalid)
+                {
+                    _notificationContext.AddNotifications(filterGetAllEmployeesDTO.ValidationResult);
+                    return BadRequest(_notificationContext.Notifications);
+                }
+                var f = _iUsuarioService.FilterGetAllEmployees(filterGetAllEmployeesDTO);
+                return Ok(f);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // POST: api/Usuario
@@ -162,8 +183,8 @@ namespace Portifolio.Api.Site.Controllers
             try
             {
                 var mudarSenhaDTO = new MudarSenhaDTO(
-                    alterarMudarSenhaRequest.Key, 
-                    alterarMudarSenhaRequest.Senha, 
+                    alterarMudarSenhaRequest.Key,
+                    alterarMudarSenhaRequest.Senha,
                     alterarMudarSenhaRequest.Cpf);
 
                 if (mudarSenhaDTO.Invalid)

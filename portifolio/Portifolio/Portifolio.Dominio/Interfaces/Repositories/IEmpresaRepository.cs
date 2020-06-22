@@ -13,5 +13,6 @@ namespace Portifolio.Dominio.Interfaces.Repositories
         void SaveUsuarioEmpresa(string email, string cnpj);
         List<Empresa> GetAllEmpresaByEmail(string email);
         bool ChangeEmploy(AlterarEmpresaDTO alterarEmpresaDTO);
+        Empresa GetEmpresaById(int idEmpresa);
     }
 }

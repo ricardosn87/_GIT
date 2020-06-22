@@ -22,7 +22,8 @@ namespace Portifolio.Data.Repository
                     {
                         Cnpj = incluirEmpresaDTO.Cnpj,
                         NomeFantasia = incluirEmpresaDTO.NomeFantasia,
-                        RazaoSocial = incluirEmpresaDTO.RazaoSocial
+                        RazaoSocial = incluirEmpresaDTO.RazaoSocial,
+                        Ativo = true
                     };
 
                     db.Empresa.Add(novaEmpresa);
@@ -45,6 +46,21 @@ namespace Portifolio.Data.Repository
                 using (var db = new PortifolioContext())
                 {
                     return db.Empresa.FirstOrDefault(x => x.Cnpj == cnpj);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public Empresa GetEmpresaById(int idEmpresa)
+        {
+            try
+            {
+                using (var db = new PortifolioContext())
+                {
+                    return db.Empresa.FirstOrDefault(x => x.IdEmpresa == idEmpresa);                   
                 }
             }
             catch (Exception ex)
@@ -121,8 +137,7 @@ namespace Portifolio.Data.Repository
                 {
                     var d = db.Empresa.FirstOrDefault(x => x.Cnpj == alterarEmpresaDTO.Cnpj);
                     d.RazaoSocial = alterarEmpresaDTO.RazaoSocial;
-                    d.NomeFantasia = alterarEmpresaDTO.NomeFantasia;
-
+                    d.NomeFantasia = alterarEmpresaDTO.NomeFantasia;                    
                     db.SaveChanges();
 
                     return true;

@@ -1,5 +1,6 @@
 ﻿using Portifolio.Dominio.DTOs.Usuario;
 using Portifolio.Dominio.Entidades;
+using Portifolio.Dominio.Notifications.Usuario;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -22,6 +23,8 @@ namespace Portifolio.Dominio.Interfaces.Services
         string SaveLifeTimeRecuperaSenha(string email);
 
         void MudarSenha(MudarSenhaDTO mudarSenhaDTO);
+
+        List<EmpresaFuncionarioDTO> FilterGetAllEmployees(FilterGetAllEmployeesDTO filterGetAllEmployeesDTO);
 
     }
 }

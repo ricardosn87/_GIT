@@ -14,6 +14,8 @@ namespace Portifolio.Data.Context
         public DbSet<UsuarioRecuperacaoSenha> UsuarioRecuperacaoSenha { get; set; }
         public DbSet<Empresa> Empresa { get; set; }
         public DbSet<UsuarioEmpresa> UsuarioEmpresa { get; set; }
+        public DbSet<Funcionario> Funcionario { get; set; }
+        public DbSet<Marca> Marca { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,6 +28,8 @@ namespace Portifolio.Data.Context
             modelBuilder.ApplyConfiguration(new UsuarioRecuperaSenhaMap());
             modelBuilder.ApplyConfiguration(new EmpresaMap());
             modelBuilder.ApplyConfiguration(new UsuarioEmpresaMap());
+            modelBuilder.ApplyConfiguration(new FuncionarioMap());
+            modelBuilder.ApplyConfiguration(new MarcaMap());
         }
     }
 }

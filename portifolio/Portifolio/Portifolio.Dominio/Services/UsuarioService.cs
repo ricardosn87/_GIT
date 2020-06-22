@@ -2,6 +2,7 @@
 using Portifolio.Dominio.Entidades;
 using Portifolio.Dominio.Interfaces.Repositories;
 using Portifolio.Dominio.Interfaces.Services;
+using Portifolio.Dominio.Notifications.Usuario;
 using Portifolio.Util.Email;
 using System;
 using System.Collections.Generic;
@@ -60,6 +61,11 @@ namespace Portifolio.Dominio.Services
         public void MudarSenha(MudarSenhaDTO mudarSenhaDTO)
         {
             _usuarioRepository.MudarSenha(mudarSenhaDTO);
+        }
+
+        public List<EmpresaFuncionarioDTO> FilterGetAllEmployees(FilterGetAllEmployeesDTO filterGetAllEmployeesDTO)
+        {
+            return _usuarioRepository.FilterGetAllEmployees(filterGetAllEmployeesDTO);
         }
     }
 }

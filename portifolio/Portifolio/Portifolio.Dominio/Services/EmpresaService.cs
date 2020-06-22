@@ -39,5 +39,10 @@ namespace Portifolio.Dominio.Services
         {
             return _empresaRepository.ChangeEmploy(alterarEmpresaDTO);
         }
+
+        public Empresa GetEmpresaById(int idEmpresa)
+        {
+            return _empresaRepository.GetEmpresaById(idEmpresa);
+        }
     }
 }

@@ -15,6 +15,7 @@ namespace Portifolio.Data.Mappings
             builder.Property(x => x.Cnpj).IsRequired();
             builder.Property(x => x.RazaoSocial).IsRequired();
             builder.Property(x => x.NomeFantasia).IsRequired();
+            builder.Property(x => x.Ativo).IsRequired();
         }
     }
 }
