@@ -1,8 +1,0 @@
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\bin\Debug\netcoreapp3.1\Portifolio.Util.deps.json
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\bin\Debug\netcoreapp3.1\Portifolio.Util.dll
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\bin\Debug\netcoreapp3.1\Portifolio.Util.pdb
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\obj\Debug\netcoreapp3.1\Portifolio.Util.csproj.CoreCompileInputs.cache
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\obj\Debug\netcoreapp3.1\Portifolio.Util.AssemblyInfoInputs.cache
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\obj\Debug\netcoreapp3.1\Portifolio.Util.AssemblyInfo.cs
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\obj\Debug\netcoreapp3.1\Portifolio.Util.dll
-C:\_GIT\Portifolio\Portifolio\Portifolio.Util\obj\Debug\netcoreapp3.1\Portifolio.Util.pdb
