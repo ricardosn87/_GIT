@@ -95,7 +95,7 @@ class Gerenciamento extends Component {
                             <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(0)} className={"nav-link " + this.state.TabAtivoHome} id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(1)} className={"nav-link " + this.state.TabAtivoEmpresa} id="pills-company-tab" data-toggle="pill" href="#pills-company" role="tab" aria-controls="pills-company" aria-selected="true">Empresa</a>
+                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(1)} className={"nav-link " + this.state.TabAtivoEmpresa} id="pills-company-tab" data-toggle="pill" href="#pills-company" role="tab" aria-controls="pills-company" aria-selected="false">Empresa</a>
                         </li>
                         <li className="nav-item">
                             <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(2)} className={"nav-link " + this.state.TabAtivoFuncionario} id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Funcionarios</a>
