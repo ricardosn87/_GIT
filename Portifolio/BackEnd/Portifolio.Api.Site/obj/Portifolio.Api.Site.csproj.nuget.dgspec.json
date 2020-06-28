@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj": {}
+    "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj": {}
   },
   "projects": {
-    "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj": {
+    "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj",
+        "projectUniqueName": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj",
         "projectName": "Portifolio.Api.Site",
-        "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj",
+        "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Api.Site\\Portifolio.Api.Site.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Api.Site\\obj\\",
+        "outputPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Api.Site\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Data\\Portifolio.Data.csproj": {
-                "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Data\\Portifolio.Data.csproj"
+              "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Data\\Portifolio.Data.csproj": {
+                "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Data\\Portifolio.Data.csproj"
               },
-              "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj": {
-                "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj"
+              "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj": {
+                "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Data\\Portifolio.Data.csproj": {
+    "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Data\\Portifolio.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Data\\Portifolio.Data.csproj",
+        "projectUniqueName": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Data\\Portifolio.Data.csproj",
         "projectName": "Portifolio.Data",
-        "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Data\\Portifolio.Data.csproj",
+        "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Data\\Portifolio.Data.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Data\\obj\\",
+        "outputPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -105,8 +105,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj": {
-                "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj"
+              "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj": {
+                "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj": {
+    "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj",
+        "projectUniqueName": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj",
         "projectName": "Portifolio.Dominio",
-        "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj",
+        "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\obj\\",
+        "outputPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -189,8 +189,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj": {
-                "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj"
+              "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj": {
+                "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj"
               }
             }
           }
@@ -243,14 +243,14 @@
         }
       }
     },
-    "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj": {
+    "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj",
+        "projectUniqueName": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj",
         "projectName": "Portifolio.Util",
-        "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj",
+        "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\obj\\",
+        "outputPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

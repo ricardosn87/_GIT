@@ -516,11 +516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj",
+      "projectUniqueName": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj",
       "projectName": "Portifolio.Util",
-      "projectPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj",
+      "projectPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\obj\\",
+      "outputPath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

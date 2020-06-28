@@ -11,24 +11,47 @@ export const MarcaFilter = () => {
 
     return (
         <div>
-            <h1>MarcaFilter</h1>
             <>
+
+
+                <Collapse in={open}>
+                    <div className="alert alert-light" role="alert">
+                        <h4 className="alert-heading">Filtro de Marcas</h4>
+                        <p>
+                            <div id="example-collapse-text">
+                                <div className="form-row">
+                                    <div className="col-md-4 mb-3">
+                                        <label for="validationDefault01">Nome</label>
+                                        <input type="text" className="form-control" id="validationDefault01" value="" />
+                                    </div>
+                                    <div className="col-md-4 mb-3">
+                                        <label for="validationDefault02">Descrição</label>
+                                        <input type="text" className="form-control" id="validationDefault02"  value="" />
+                                    </div>
+                                    <div className="col-md-4 mb-3">
+                                    <label for="validationDefault02">Empresa</label>
+                                        <select className="form-control" id="inlineFormCustomSelectPref">
+                                            <option selected>Choose...</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </p>                      
+                    </div>
+
+                </Collapse>
                 <Button
                     onClick={() => setOpen(!open)}
                     aria-controls="example-collapse-text"
                     aria-expanded={open}
                 >
                     Filtro(s) <Badge variant="light">9</Badge>
-      </Button>
-                <Collapse in={open}>
-                    <div id="example-collapse-text">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                        labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-                </Collapse>
+                </Button>
             </>
-
         </div>
     )
 }

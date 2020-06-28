@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bpffNxjWAi6Qo9svRevyFFFxY3/UjVWn8KGyKsrO6CExBPm3RI8Iv4GpRvrhrnJQXOxL65h6UyVf+kMmo/IKKg==",
+  "dgSpecHash": "XcVFiLjPqbLoo8Y4T0i2iGSXvdyJBc74hwmB0vKoouwJ2HhwAZUxXDMLJUHtAfWXDJ3spH8pl0RMoRrlLgLiNA==",
   "success": true,
-  "projectFilePath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Data\\Portifolio.Data.csproj",
+  "projectFilePath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Data\\Portifolio.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\autofac\\5.1.2\\autofac.5.1.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",

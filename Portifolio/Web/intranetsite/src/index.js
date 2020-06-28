@@ -7,7 +7,7 @@ import { createStore } from 'redux'
 import { applyMiddleware } from "redux"
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter,  Route } from 'react-router-dom'
 import reducers from './combinerReducers'
 
 import Cadastro from './Usuario/Cadastro/Cadastro'
@@ -15,6 +15,8 @@ import Gerenciamento from './Gerenciamento/Gerenciamento'
 import RecuperacaoSenha from './Usuario/RecuperacaoSenha/RecuperacaoSenha'
 import NovaSenha from './Usuario/NovaSenha/NovaSenha'
 import Login from './Usuario/Login/Login'
+
+
 
 
 let store = createStore(reducers, applyMiddleware(thunk))

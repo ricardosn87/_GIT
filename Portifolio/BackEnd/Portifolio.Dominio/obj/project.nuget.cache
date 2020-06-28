@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcA5dcqRZaSCtMattz0ffEJdvKdM9Uxr3Knsm9jb9MlVcZzBHtZcfz67+rdsphWsCSEgogPqXJg6xB/j3ksaYw==",
+  "dgSpecHash": "uQ8O8WsjxNPUXohvlaCOvc33ExdZNoRN3qCi8Qmhfv4hkZaDWl1r2m+sbpoveXHo4YVbX8xXJBs7rFT/HCsN3Q==",
   "success": true,
-  "projectFilePath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Dominio\\Portifolio.Dominio.csproj",
+  "projectFilePath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Dominio\\Portifolio.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\autofac\\5.1.2\\autofac.5.1.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\9.0.0-preview3\\fluentvalidation.9.0.0-preview3.nupkg.sha512",

@@ -25,20 +25,20 @@ namespace Portifolio.Api.Site.Controllers
             _iMarcaService = iMarcaService;
             _iEmpresaService = iEmpresaService;
         }
-        // GET: api/Marca
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+       
 
         // GET: api/Marca/5
-        [HttpGet("GetExistMarcaByNome/{nome}")]
-        public ActionResult GetExistMarcaByNome(string nome)
+        [HttpGet("GetMarcaByNome/{nomemarca}")]
+        public IActionResult GetMarcaByNome(string nomemarca)
         {
             try
             {
-                return Ok(_iMarcaService.GetExistMarcaByNome(nome));
+                var m = _iMarcaService.GetMarcaByNome(nomemarca);
+                if(m == null)
+                {
+                    return NotFound("Marca não encontrada.");
+                }
+                return Ok(m);
             }
             catch (Exception ex)
             {
@@ -55,14 +55,19 @@ namespace Portifolio.Api.Site.Controllers
                 var incluirMarcaDTO = new IncluirMarcaDTO(
                     incluirMarcaRequest.Nome,
                     incluirMarcaRequest.Descricao,
-                    incluirMarcaRequest.Ativo
-                   
+                    incluirMarcaRequest.IdEmpresa
                     );
 
                 if (incluirMarcaDTO.Invalid)
                 {
                     _notificationContext.AddNotifications(incluirMarcaDTO.ValidationResult);
                     return BadRequest(_notificationContext.Notifications);
+                }
+
+                var empresa = _iEmpresaService.GetEmpresaById(incluirMarcaRequest.IdEmpresa);
+                if (empresa == null)
+                {
+                    return NotFound("Empresa não encontrada");
                 }
 
                 _iMarcaService.SaveMarca(incluirMarcaDTO);

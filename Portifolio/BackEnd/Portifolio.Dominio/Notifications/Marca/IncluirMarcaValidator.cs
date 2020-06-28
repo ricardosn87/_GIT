@@ -16,11 +16,7 @@ namespace Portifolio.Dominio.Notifications.Marca
 
             RuleFor(v => v.Descricao)
                   .NotEmpty()
-                  .WithMessage("Descricao Invalida.");
-
-            RuleFor(v => v.Ativo)
-                  .NotEmpty()                  
-                  .WithMessage("Ativo Invalida.");
+                  .WithMessage("Descricao Invalida.");            
         }
     }
 }

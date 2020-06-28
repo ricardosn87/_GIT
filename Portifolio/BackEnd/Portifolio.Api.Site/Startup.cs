@@ -60,6 +60,9 @@ namespace Portifolio.Api.Site
 
             services.AddTransient<IEmailSender, EmailSender>();
 
+
+          
+
             var mappingConfig = new MapperConfiguration(mc =>
             {
                 mc.AddProfile(new MappingProfile());

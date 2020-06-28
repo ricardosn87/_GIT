@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZOfs4zL92BOfIgZLNmigOEL0mEnMub4jn3Mp/Awu0ZUPmcosttbRqLJiCgJ1c4LOiY/gm5xQraLrTearpLeag==",
+  "dgSpecHash": "neBz7+37Wuq4d164EKQTv69DA8io4b/TV0VQ2xZhDsA+u4gPxRRjzz5uWnCjpv7qgh9XBM/FIwhm8ziWwWSF7Q==",
   "success": true,
-  "projectFilePath": "C:\\_GIT\\Portifolio\\Portifolio\\Portifolio.Util\\Portifolio.Util.csproj",
+  "projectFilePath": "C:\\_GIT\\Portifolio\\BackEnd\\Portifolio.Util\\Portifolio.Util.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-preview.2.20160.3\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-preview.2.20160.3.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.options\\5.0.0-preview.2.20160.3\\microsoft.extensions.options.5.0.0-preview.2.20160.3.nupkg.sha512",

@@ -1,4 +1,5 @@
 ﻿using Portifolio.Dominio.Notifications;
+using Portifolio.Dominio.Notifications.CustomsValidations;
 using Portifolio.Dominio.Notifications.Marca;
 using System;
 using System.Collections.Generic;
@@ -9,16 +10,16 @@ namespace Portifolio.Dominio.DTOs.Marca
     public class IncluirMarcaDTO : Entity
     {
         public string Nome { get; set; }
-        public string Descricao { get; set; }
-        public bool Ativo { get; set; }
-       
+        public string Descricao { get; set; }       
+        public int IdEmpresa { get; set; }       
 
-        public IncluirMarcaDTO(string Nome, string Descricao, bool Ativo)
+
+        public IncluirMarcaDTO(string Nome, string Descricao, int IdEmpresa)
         {
             this.Nome = Nome;
             this.Descricao = Descricao;
-            this.Ativo = Ativo;
-            
+            this.IdEmpresa = IdEmpresa;
+
 
             Validate(this, new IncluirMarcaValidator());
         }

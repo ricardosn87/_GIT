@@ -62,51 +62,52 @@ class Login extends Component {
             return (<Redirect to="/Gerenciamento" />)
         }
 
-
         return (
-            <div style={{ width: 800, margin: 50, paddingLeft: 500 }} >
-                <div className="container">
-                    <div className="form-group row">
-                        <div className="col align-self-center">
-                            <input className="form-control" type="email" placeholder="Email" onChange={valor => this.SetEmail(valor)} value={this.state.Email} />
+            <>
+                <div style={{ width: 800, margin: 50, paddingLeft: 500 }} >
+                    <div className="container">
+                        <div className="form-group row">
+                            <div className="col align-self-center">
+                                <input className="form-control" type="email" placeholder="Email" onChange={valor => this.SetEmail(valor)} value={this.state.Email} />
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group row">
-                        <div className="col align-self-center">
-                            <input className="form-control" type="password" placeholder="Senha" onChange={valor => this.SetSenha(valor)} value={this.state.Senha} />
+                        <div className="form-group row">
+                            <div className="col align-self-center">
+                                <input className="form-control" type="password" placeholder="Senha" onChange={valor => this.SetSenha(valor)} value={this.state.Senha} />
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group row">
-                        <div className="col align-self-center">
-                            <button type="button" className="btn btn-primary btn-lg btn-block" onClick={() => this.props.Login(this.state.Email, this.state.Senha)} >Entrar</button>
+                        <div className="form-group row">
+                            <div className="col align-self-center">
+                                <button type="button" className="btn btn-primary btn-lg btn-block" onClick={() => this.props.Login(this.state.Email, this.state.Senha)} >Entrar</button>
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group row">
-                        <div className="col align-self-center">
-                           <Link to="/RecuperacaoSenha">Esqueceu a Senha?</Link>
+                        <div className="form-group row">
+                            <div className="col align-self-center">
+                                <Link to="/RecuperacaoSenha">Esqueceu a Senha?</Link>
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-group row">
-                        <div className="col align-self-center">
-                            Novo no sistema? <Link to="/Cadastro">Cadastra-se</Link>
+                        <div className="form-group row">
+                            <div className="col align-self-center">
+                                Novo no sistema? <Link to="/Cadastro">Cadastra-se</Link>
+                            </div>
                         </div>
-                    </div>
-                    <div hidden={this.state.errorMessagemEmail} className="alert alert-warning" role="alert">
-                        * Email Invalido.
+                        <div hidden={this.state.errorMessagemEmail} className="alert alert-warning" role="alert">
+                            * Email Invalido.
                         </div>
-                    <div hidden={LoginStatus === '404' ? false : true} className="alert alert-warning" role="alert">
-                        * Login não encontrado.
+                        <div hidden={LoginStatus === '404' ? false : true} className="alert alert-warning" role="alert">
+                            * Login não encontrado.
                     </div>
 
-                </div>
-
-                {Load &&
-                    <div>
-                        <div className="loader">Loading...</div>
                     </div>
-                }
 
-            </div>
+                    {Load &&
+                        <div>
+                            <div className="loader">Loading...</div>
+                        </div>
+                    }
+
+                </div>                
+            </>
         )
     }
 }

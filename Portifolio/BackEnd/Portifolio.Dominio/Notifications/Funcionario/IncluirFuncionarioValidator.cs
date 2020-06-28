@@ -16,21 +16,21 @@ namespace Portifolio.Dominio.Notifications.Funcionario
            .Must(Cpf => CPF.IsCpf(Cpf))
            .WithMessage("CPF Invalido.")
            .NotEmpty()
-                  .WithMessage("CPF Invalido..");
+                  .WithMessage("CPF Invalido.");
 
             RuleFor(v => v.Nome)
                    .NotEmpty()
-                   .WithMessage("Nome Invalida.");
+                   .WithMessage("Nome Invalido.");
 
             RuleFor(v => v.Email)
                 .Must(Cpf => Email.IsValidEmail(Cpf))
-                .WithMessage("Email Invalida.")
+                .WithMessage("Email Invalido.")
                 .NotEmpty()
-                .WithMessage("Email Invalida.");           
+                .WithMessage("Email Invalido.");           
 
             RuleFor(v => v.Senha)
                   .NotEmpty()
-                  .WithMessage("SenhaInvalida.");            
+                  .WithMessage("Senha Invalida.");            
         }
     }
 }

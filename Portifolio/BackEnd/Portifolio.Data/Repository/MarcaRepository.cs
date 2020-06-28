@@ -1,4 +1,5 @@
-﻿using Portifolio.Data.Context;
+﻿using AutoMapper;
+using Portifolio.Data.Context;
 using Portifolio.Dominio.DTOs.Marca;
 using Portifolio.Dominio.Entidades;
 using Portifolio.Dominio.Interfaces.Repositories;
@@ -11,6 +12,12 @@ namespace Portifolio.Data.Repository
 {
     public class MarcaRepository : IMarcaRepository
     {
+        private readonly IMapper _mapper;
+        public MarcaRepository(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
+
         public void SaveMarca(IncluirMarcaDTO incluirMarcaDTO)
         {
             try
@@ -21,7 +28,8 @@ namespace Portifolio.Data.Repository
                     {
                         Nome = incluirMarcaDTO.Nome,
                         Descricao = incluirMarcaDTO.Descricao,
-                        Ativo = incluirMarcaDTO.Ativo,
+                        Ativo = true,
+                        IdEmpresa = incluirMarcaDTO.IdEmpresa
                     };
 
                     db.Marca.Add(novaMarcar);
@@ -34,18 +42,18 @@ namespace Portifolio.Data.Repository
             }
         }
 
-        public bool GetExistMarcaByNome(string nome)
+        public MarcaDTO GetMarcaByNome(string nome)
         {
             try
             {
                 using (var db = new PortifolioContext())
                 {
-                    var m = db.Marca.FirstOrDefault(x => x.Nome.Trim() == nome.Trim());
+                    var m = _mapper.Map<MarcaDTO>(db.Marca.FirstOrDefault(x => x.Nome.Trim() == nome.Trim()));
                     if(m == null)
                     {
-                        return false;
+                        return m;
                     }
-                    return true;
+                    return m;
                 }
             }
             catch (Exception ex)

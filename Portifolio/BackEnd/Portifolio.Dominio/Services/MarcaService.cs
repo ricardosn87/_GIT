@@ -20,9 +20,9 @@ namespace Portifolio.Dominio.Services
             _iMarcaRepository.SaveMarca(incluirMarcaDTO);
         }
 
-        public bool GetExistMarcaByNome(string nome)
+        public MarcaDTO GetMarcaByNome(string nome)
         {
-            return _iMarcaRepository.GetExistMarcaByNome(nome);
+            return _iMarcaRepository.GetMarcaByNome(nome);
         }
     }
 }
