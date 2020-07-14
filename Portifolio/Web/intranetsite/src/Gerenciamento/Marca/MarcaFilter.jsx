@@ -1,12 +1,17 @@
-import React, { useState } from 'react'
-import { useSelector } from 'react-redux'
+import React, { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 import Badge from 'react-bootstrap/Badge';
 
+import * as Actions from '../Marca/MarcaActions'
+import { UserProfile } from './../../Usuario/UserProfile/UserProfile';
+
 
 export const MarcaFilter = () => {
+    const dispatch = useDispatch()
 
     const [open, setOpen] = useState(false);
     const [AmountFilter, SetAmountFilter] = useState(0);
@@ -20,9 +25,13 @@ export const MarcaFilter = () => {
     const [ValorEmpresa, SetValorEmpresa] = useState(0);
     const [CountEmpresaFilter, SetCountEmpresaFilter] = useState(0);
 
+    
+
     const ListaEmpresa = useSelector(
         state => state.EmpresaState.ListaEmpresa
     )
+
+   
 
     const ChangeNomeFilter = (Nome) => {
         SetValorMarca(Nome)
@@ -36,6 +45,7 @@ export const MarcaFilter = () => {
             SetAmountFilter(AmountFilter - 1)
             SetCountFilter(0)
         }
+        dispatch({ type: 'GET_LIST_NOME_FILTERED', ValorMarcaFiltered: Nome })
     }
 
     const ChangeDescricaoFilter = (Descricao) => {
@@ -45,15 +55,18 @@ export const MarcaFilter = () => {
                 SetAmountFilter(AmountFilter + 1)
                 SetCountDescricaoFilter(1)
             }
+
         } else {
             SetAmountFilter(AmountFilter - 1)
             SetCountDescricaoFilter(0)
         }
+        dispatch({ type: 'GET_LIST_DESCRICAO_FILTERED', ValorDescricaoFiltered: Descricao })
     }
 
     const ChangeCompanyFilter = (Company) => {
+        var employInteiro = 0
         if (Company !== 'Selecione:') {
-            var employInteiro = parseInt(Company)
+            employInteiro = parseInt(Company)
             SetValorEmpresa(employInteiro)
             if (CountEmpresaFilter === 0) {
                 SetCountEmpresaFilter(1)
@@ -61,10 +74,11 @@ export const MarcaFilter = () => {
             }
         }
         else {
-            SetValorEmpresa(0)
-            SetCountEmpresaFilter(0)
+            SetValorEmpresa(employInteiro)
+            SetCountEmpresaFilter(employInteiro)
             SetAmountFilter(AmountFilter - 1)
         }
+        dispatch({ type: 'GET_LIST_EMPRESA_FILTERED', ValorEmpresaFiltered: employInteiro })
     }
 
     function PopulateSelectCompany(ListaEmpresa) {
@@ -86,8 +100,6 @@ export const MarcaFilter = () => {
     return (
         <div>
             <>
-
-
                 <Collapse in={open}>
                     <div className="alert alert-light" role="alert">
                         <h4 className="alert-heading">Filtro de Marcas</h4>
@@ -96,15 +108,15 @@ export const MarcaFilter = () => {
                                 <div className="form-row">
                                     <div className="col-md-4 mb-3">
                                         <label>Nome</label>
-                                        <input type="text" onChange={e => ChangeNomeFilter(e.target.value)} className="form-control" value={ValorMarca} />
+                                        <input type="text" onChange={e =>  ChangeNomeFilter(e.target.value)} className="form-control" value={ValorMarca} />
                                     </div>
                                     <div className="col-md-4 mb-3">
                                         <label>Descrição</label>
-                                        <input type="text" onChange={e => ChangeDescricaoFilter(e.target.value)} className="form-control" value={ValorDescricao} />
+                                        <input type="text" onChange={e =>  ChangeDescricaoFilter(e.target.value)} className="form-control" value={ValorDescricao} />
                                     </div>
                                     <div className="col-md-4 mb-3">
                                         <label>Empresa</label>
-                                        <select className="custom-select" onChange={e => ChangeCompanyFilter(e.target.value)} required>
+                                        <select className="custom-select" onChange={e =>  ChangeCompanyFilter(e.target.value)} required>
                                             <option value={undefined}>Selecione:</option>
                                             {PopulateSelectCompany(ListaEmpresa)}
                                         </select>
@@ -122,11 +134,7 @@ export const MarcaFilter = () => {
                     aria-expanded={open}
                 >
                     Filtro(s) <Badge variant="light">{AmountFilter}</Badge>
-                </Button>
-                {' '}
-                <Button>
-                    Buscar
-                </Button>
+                </Button>              
             </>
         </div>
     )

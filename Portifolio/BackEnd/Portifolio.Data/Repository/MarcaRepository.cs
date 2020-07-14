@@ -49,11 +49,67 @@ namespace Portifolio.Data.Repository
                 using (var db = new PortifolioContext())
                 {
                     var m = _mapper.Map<MarcaDTO>(db.Marca.FirstOrDefault(x => x.Nome.Trim() == nome.Trim()));
-                    if(m == null)
+                    if (m == null)
                     {
                         return m;
                     }
                     return m;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public List<MarcaDTO> GetMarcaByEmailUser(string email)
+        {
+            try
+            {
+                var listaMarcasDTO = new List<MarcaDTO>();
+                using (var db = new PortifolioContext())
+                {
+                    var userCompany = db.Usuario.FirstOrDefault(x => x.Email == email);
+                    var listIdEmpresa = db.UsuarioEmpresa.Where(x => x.IdUsuario == userCompany.Id).Select(s => s.IdEmpresa);
+
+
+                    var listaMarcas = db.Marca.Where(x => listIdEmpresa.Contains(x.IdEmpresa)).ToList();
+
+                    foreach (var d in listaMarcas)
+                    {
+                        var marcaDTO = new MarcaDTO();
+                        marcaDTO.IdMarca = d.IdMarca;
+                        marcaDTO.Nome = d.Nome;
+                        marcaDTO.Descricao = d.Descricao;
+                        marcaDTO.Ativo = d.Ativo;
+                        marcaDTO.IdEmpresa = d.IdEmpresa;
+                        marcaDTO.NomeEmpresa = db.Empresa.FirstOrDefault(x => x.IdEmpresa == d.IdEmpresa).RazaoSocial;
+                        listaMarcasDTO.Add(marcaDTO);
+                    }
+
+
+                    return listaMarcasDTO;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public void UpdateMarca(UpdateMarcaDTO updateMarcaDTO)
+        {
+            try
+            {
+                using (var db = new PortifolioContext())
+                {
+                    var marca = db.Marca.FirstOrDefault(x => x.IdMarca == updateMarcaDTO.IdMarca);
+                    marca.Ativo = true;
+                    marca.Descricao = updateMarcaDTO.Descricao;
+                    marca.IdEmpresa = updateMarcaDTO.IdEmpresa;
+                    marca.Nome = updateMarcaDTO.Nome;
+                    db.SaveChanges();
+
                 }
             }
             catch (Exception ex)

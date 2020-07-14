@@ -1,3 +1,4 @@
+/* eslint-disable no-empty-pattern */
 export class UserProfile {
 
     Email: string
@@ -8,7 +9,8 @@ export class UserProfile {
     }
 
     SetLoginStorage() {
-        localStorage.setItem('login', this.Email);
+        if (this.Email !== '')
+            localStorage.setItem('login', this.Email);
     }
 
     GetLoginStorage() {

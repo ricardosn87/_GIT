@@ -9,5 +9,7 @@ namespace Portifolio.Dominio.Interfaces.Services
     {
         void SaveMarca(IncluirMarcaDTO incluirMarcaDTO);
         MarcaDTO GetMarcaByNome(string nome);
+        List<MarcaDTO> GetMarcaByEmailUser(string email);
+        void UpdateMarca(UpdateMarcaDTO updateMarcaDTO);
     }
 }

@@ -24,5 +24,15 @@ namespace Portifolio.Dominio.Services
         {
             return _iMarcaRepository.GetMarcaByNome(nome);
         }
+
+        public List<MarcaDTO> GetMarcaByEmailUser(string email)
+        {
+            return _iMarcaRepository.GetMarcaByEmailUser(email);
+        }
+
+        public void UpdateMarca(UpdateMarcaDTO updateMarcaDTO)
+        {
+            _iMarcaRepository.UpdateMarca(updateMarcaDTO);
+        }
     }
 }

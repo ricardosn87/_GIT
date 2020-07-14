@@ -25,7 +25,7 @@ namespace Portifolio.Api.Site.Controllers
             _iMarcaService = iMarcaService;
             _iEmpresaService = iEmpresaService;
         }
-       
+
 
         // GET: api/Marca/5
         [HttpGet("GetMarcaByNome/{nomemarca}")]
@@ -34,7 +34,7 @@ namespace Portifolio.Api.Site.Controllers
             try
             {
                 var m = _iMarcaService.GetMarcaByNome(nomemarca);
-                if(m == null)
+                if (m == null)
                 {
                     return NotFound("Marca não encontrada.");
                 }
@@ -51,7 +51,7 @@ namespace Portifolio.Api.Site.Controllers
         public ActionResult SaveMarca(IncluirMarcaRequest incluirMarcaRequest)
         {
             try
-            {              
+            {
                 var incluirMarcaDTO = new IncluirMarcaDTO(
                     incluirMarcaRequest.Nome,
                     incluirMarcaRequest.Descricao,
@@ -76,22 +76,59 @@ namespace Portifolio.Api.Site.Controllers
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex.Message);
             }
 
         }
 
         // PUT: api/Marca/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpGet("GetMarcaByEmailUser/{email}")]
+        public IActionResult GetMarcaByEmailUser(string email)
         {
+            try
+            {
+                return Ok(_iMarcaService.GetMarcaByEmailUser(email));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpPut("updatemarca")]
+        public IActionResult UpdateMarca(UpdateMarcaRequest updateMarcaRequest)
         {
+            try
+            {
+                var updateMarcaDTO = new UpdateMarcaDTO(
+                 updateMarcaRequest.IdMarca,
+                 updateMarcaRequest.Nome,
+                 updateMarcaRequest.Descricao,
+                 updateMarcaRequest.IdEmpresa
+              );
+
+                if (updateMarcaDTO.Invalid)
+                {
+                    _notificationContext.AddNotifications(updateMarcaDTO.ValidationResult);
+                    return BadRequest(_notificationContext.Notifications);
+                }
+
+                var empresa = _iEmpresaService.GetEmpresaById(updateMarcaRequest.IdEmpresa);
+                if (empresa == null)
+                {
+                    return NotFound("Empresa não encontrada");
+                }
+
+                _iMarcaService.UpdateMarca(updateMarcaDTO);
+
+                return Ok(true);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+          
         }
     }
 }

@@ -92,16 +92,16 @@ class Gerenciamento extends Component {
                 <div>
                     <ul className="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                         <li className="nav-item">
-                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(0)} className={"nav-link " + this.state.TabAtivoHome} id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(0)} className={"nav-link " + this.state.TabAtivoHome} id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(1)} className={"nav-link " + this.state.TabAtivoEmpresa} id="pills-company-tab" data-toggle="pill" href="#pills-company" role="tab" aria-controls="pills-company" aria-selected="false">Empresa</a>
+                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(1)} className={"nav-link " + this.state.TabAtivoEmpresa} id="pills-company-tab" data-toggle="pill" href="#pills-company" role="tab" aria-controls="pills-company" aria-selected="true">Empresa</a>
                         </li>
                         <li className="nav-item">
-                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(2)} className={"nav-link " + this.state.TabAtivoFuncionario} id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Funcionarios</a>
+                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(2)} className={"nav-link " + this.state.TabAtivoFuncionario} id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="true">Funcionarios</a>
                         </li>
                         <li className="nav-item">
-                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(3)} className={"nav-link " + this.state.TabAtivoMarca} id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Marca</a>
+                            <a defaultValue={null} onClick={valor => this.SetOnChangeTabMenuActive(3)} className={"nav-link " + this.state.TabAtivoMarca} id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="true">Marca</a>
                         </li>
                     </ul>
                     <div className="tab-content" id="pills-tabContent">

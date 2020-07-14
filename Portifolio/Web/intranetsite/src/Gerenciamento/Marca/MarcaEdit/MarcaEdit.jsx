@@ -1,91 +1,124 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { useDispatch } from 'react-redux'
-import { useSelector } from 'react-redux'
-
-import * as Actions from '../MarcaActions'
 
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
+
+import * as Actions from '../MarcaActions'
 import { SaveMarcaDTO } from './../Model/SaveMarcaDTO';
+import { EditMarcaDTO } from './../Model/EditMarcaDTO';
 
-
-export const MarcaCadastro = () => {
+/* export const MarcaEdit = ({ idMarca, nome, descricao, ativo, idEmpresa }) => { */
+export const MarcaEdit = ({ Open }) => {
     const dispatch = useDispatch()
 
-    const [show, setShow] = useState(false);
+    const [show, setShow] = useState(Open);
     const [ValorNomeMarca, SetValorNomeMarca] = useState('');
     const [ValorDescricaoMarca, SetValorDescricaoMarca] = useState('');
     const [ValorEmpresa, SetValorCompany] = useState(0);
 
+    const [NomeMarcaChange, SetNomeMarcaChange] = useState(false)
+    const [DescricaoMarcaChange, SetDescricaoMarcaChange] = useState(false)
+    const [EmpresaMarcaChange, SetEmpresaMarcaChange] = useState(false)
+
     const GetMarcaByNomeState = useSelector(
         State => State.MarcaState.GetMarcaByNomeState
     )
+
     const GetDescriptionByNomeState = useSelector(
         State => State.MarcaState.GetDescriptionByNomeState
+    )
+
+    const EditMarcaState = useSelector(
+        State => State.MarcaState.EditMarcaState
     )
 
     const ListaEmpresa = useSelector(
         state => state.EmpresaState.ListaEmpresa
     )
 
-    const SaveMarcaState = useSelector(
-        State => State.MarcaState.SaveMarcaState
+    const MarcaEditDTO = useSelector(
+        state => state.MarcaState.MarcaEditDTO
     )
 
+
+
     const handleClose = () => {
-        setShow(false);
+        setShow(false)
         SetValorNomeMarca('')
         SetValorDescricaoMarca('')
         SetValorCompany(0)
+        dispatch({ type: 'SET_MARCA_EDIT_CLOSE', MarcaEditClose: false })
         dispatch({ type: 'GET_MARCA_DESCRICAO', GetDescriptionByNomeState: null })
         dispatch({ type: 'GET_MARCA_NOME', GetMarcaByNomeState: null })
-        dispatch({ type: 'SAVE_MARCA', SaveMarcaState: null })
+        dispatch({ type: 'EDIT_MARCA', EditMarcaState: null })
     }
 
-    const handleShow = () => setShow(true);
+    const ChangeNomeMarca = (nomeMarca) => {
+        SetNomeMarcaChange(true)
+        SetValorNomeMarca(nomeMarca)
+        if (nomeMarca !== '')
+            Actions.GetMarcaByNome(dispatch, nomeMarca)
+        else dispatch({ type: 'GET_MARCA_NOME', GetMarcaByNomeState: null })
+    }
 
-    const ChangeEmploy = employ => {
-        if (employ !== 'Selecione:') {
-            var employInteiro = parseInt(employ)
-            SetValorCompany(employInteiro)
-        } else {
-            SetValorCompany(0)
+    function ReturnTextStatusState(status) {
+        if (ValorNomeMarca === MarcaEditDTO.Nome) {
+            return <input
+                onChange={e => ChangeNomeMarca(e.target.value)}
+                value={ValorNomeMarca}
+                type="text" className="form-control" placeholder="Nome" required></input>
+        }
+        else if (status === 404) {
+            return <input
+                onChange={e => ChangeNomeMarca(e.target.value)}
+                value={ValorNomeMarca}
+                type="text" className="form-control is-valid" placeholder="Nome" required></input>
+        }
+        else if (status === 200) {
+            return <input
+                onChange={e => ChangeNomeMarca(e.target.value)}
+                value={ValorNomeMarca}
+                type="text" className="form-control is-invalid" placeholder="Nome" required></input>
+        }
+        else if (status === null) {
+            return <input
+                onChange={e => ChangeNomeMarca(e.target.value)}
+                value={ValorNomeMarca}
+                type="text" className="form-control" placeholder="Nome" required></input>
         }
     }
 
-    const ChangeEmployStyle = employ => {
-        if (employ > 0) {
-            return 'was-validated'
-        } else {
-            return 'form-group'
+    function ReturnTextStateDecription(status) {
+        if (status === 404) {
+            return <div className="valid-feedback"> Valido!  </div >
         }
-    }
-
-    function PopulateSelectCompany(ListaEmpresa) {
-        var listOptionsCompany = []
-
-        if (ListaEmpresa !== undefined) {
-            ListaEmpresa.map((key, index) => {
-                var option = (
-                    <option value={key.idEmpresa}>
-                        CNPJ: {key.cnpj} - Razão Social:{key.razaoSocial}
-                    </option>
-                )
-                listOptionsCompany.push(option)
-            })
+        else if (status === 200) {
+            return <div className="invalid-feedback"> O nome já existe.</div>
         }
-        return listOptionsCompany
+        else {
+            return null
+        }
     }
 
     const ChangeDescricaoMarca = (descricaoMarca) => {
+        SetDescricaoMarcaChange(true)
         SetValorDescricaoMarca(descricaoMarca)
+
         if (descricaoMarca !== '')
             dispatch({ type: 'GET_MARCA_DESCRICAO', GetDescriptionByNomeState: 200 })
         else dispatch({ type: 'GET_MARCA_DESCRICAO', GetDescriptionByNomeState: null })
     }
+
     function ReturnControlDescriptionStatusState(status) {
-        if (status === 200) {
+        if (ValorDescricaoMarca === MarcaEditDTO.Descricao) {
+            return <input
+                onChange={e => ChangeDescricaoMarca(e.target.value)}
+                value={ValorDescricaoMarca}
+                type="text" className="form-control" placeholder="Nome" required></input>
+        }
+        else if (status === 200) {
             return <input
                 onChange={e => ChangeDescricaoMarca(e.target.value)}
                 value={ValorDescricaoMarca}
@@ -108,53 +141,47 @@ export const MarcaCadastro = () => {
         }
     }
 
-    const ChangeNomeMarca = (nomeMarca) => {
-        SetValorNomeMarca(nomeMarca)
-        if (nomeMarca !== '')
-            Actions.GetMarcaByNome(dispatch, nomeMarca)
-        else dispatch({ type: 'GET_MARCA_NOME', GetMarcaByNomeState: null })
-    }
-
-    function ReturnTextStateDecription(status) {
-        if (status === 404) {
-            return <div className="valid-feedback"> Valido!  </div >
-        }
-        else if (status === 200) {
-            return <div className="invalid-feedback"> O nome já existe.</div>
-        }
-        else {
-            return null
+    const ChangeEmployStyle = employ => {
+        if (employ > 0) {
+            return 'was-validated'
+        } else {
+            return 'form-group'
         }
     }
 
-    function ReturnTextStatusState(status) {
-        if (status === 404) {
-            return <input
-                onChange={e => ChangeNomeMarca(e.target.value)}
-                value={ValorNomeMarca}
-                type="text" className="form-control is-valid" placeholder="Nome" required></input>
+    const ChangeEmploy = employ => {
+        SetEmpresaMarcaChange(true)
+        if (employ !== 'Selecione:') {
+            var employInteiro = parseInt(employ)
+            SetValorCompany(employInteiro)
+        } else {
+            SetValorCompany(0)
         }
-        else if (status === 200) {
-            return <input
-                onChange={e => ChangeNomeMarca(e.target.value)}
-                value={ValorNomeMarca}
-                type="text" className="form-control is-invalid" placeholder="Nome" required></input>
+    }
+
+    function PopulateSelectCompany(ListaEmpresa) {
+        var listOptionsCompany = []
+
+        if (ListaEmpresa !== undefined) {
+            ListaEmpresa.map((key, index) => {
+                var option = (
+                    <option value={key.idEmpresa} selected={ValorEmpresa === key.idEmpresa ? true : false}>
+                        CNPJ: {key.cnpj} - Razão Social:{key.razaoSocial}
+                    </option>
+                )
+                listOptionsCompany.push(option)
+            })
         }
-        else if (status === null) {
-            return <input
-                onChange={e => ChangeNomeMarca(e.target.value)}
-                value={ValorNomeMarca}
-                type="text" className="form-control" placeholder="Nome" required></input>
-        }
+        return listOptionsCompany
     }
 
     function EnableButtonSaveMarca() {
         if (ValorNomeMarca !== '' && ValorDescricaoMarca !== '' && ValorEmpresa !== 0) {
             return <Button variant="primary" onClick={SaveMarca}>
-                       Salvar
+                Salvar
                 </Button>
         }
-        else{
+        else {
             return <Button variant="primary" onClick={SaveMarca} disabled>
                 Salvar
             </Button>
@@ -162,30 +189,34 @@ export const MarcaCadastro = () => {
     }
 
     function SaveMarca() {
-        var saveMarcaDTO = new SaveMarcaDTO(ValorNomeMarca, ValorDescricaoMarca, ValorEmpresa)
-        Actions.SaveMarca(dispatch, saveMarcaDTO)
+        var saveMarcaDTO = new EditMarcaDTO(MarcaEditDTO.IdMarca, ValorNomeMarca, ValorDescricaoMarca, ValorEmpresa)
+        Actions.EditMarca(dispatch, saveMarcaDTO);
         dispatch({ type: 'TABLE_LIST_EFFECT', TableListEffectState: true })
     }
+    useEffect(() => {
+        if (!NomeMarcaChange) {
+            SetValorNomeMarca(MarcaEditDTO.Nome)
+        }
+        if (!DescricaoMarcaChange) {
+            SetValorDescricaoMarca(MarcaEditDTO.Descricao)
+        }
+        if (!EmpresaMarcaChange) {
+            SetValorCompany(MarcaEditDTO.IdEmpresa)
+        }
+    });
+
 
     return (
         <>
-            <div>
-                <nav className='navbar navbar-light bg-light justify-content-between'>
-                    <a className='navbar-brand'>Gerenciamento de Marcas</a>
-                    <form className='form-inline'>
-                        <Button variant='primary' onClick={handleShow} >
-                            Novo
-                    </Button>
-                    </form>
-                </nav>
-            </div>
+
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Nova Marca</Modal.Title>
+                    <Modal.Title>Modal heading</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
                     <>
-                        {SaveMarcaState === null &&
+                        {EditMarcaState === null &&
+
                             <form className='needs-validation' novalidate>
                                 <div className='form-group'>
                                     <label>Nome</label>
@@ -207,14 +238,15 @@ export const MarcaCadastro = () => {
                                 </div>
                             </form>
                         }
-                        {SaveMarcaState === 200 &&
+
+                        {EditMarcaState === 200 &&
                             <div className='alert alert-success' role='alert'>
                                 <h4 className='alert-heading'>Sucesso!</h4>
-                                <p>Cadastro de Marca realizado com sucesso.</p>
+                                <p>Atualização de Marca realizado com sucesso.</p>
                                 <hr />
                             </div>
                         }
-                        {SaveMarcaState !== 200 && SaveMarcaState !== null &&
+                        {EditMarcaState !== 200 && EditMarcaState !== null &&
                             <div className='alert alert-danger' role='alert'>
                                 <h4 className='alert-heading'>Erro!</h4>
                                 <p>Erro inesperado.</p>
@@ -225,18 +257,18 @@ export const MarcaCadastro = () => {
                     </>
                 </Modal.Body>
                 <Modal.Footer>
-
-                    {SaveMarcaState === null &&
+                    {EditMarcaState === null &&
                         <div>
                             <Button variant="secondary" onClick={handleClose}>
                                 Fechar
                             </Button>
-                            {'  '}
-                           {EnableButtonSaveMarca()}
+                            {' '}
+                            {EnableButtonSaveMarca()}
                         </div>
                     }
                 </Modal.Footer>
             </Modal>
         </>
     )
+
 }

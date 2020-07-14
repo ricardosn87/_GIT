@@ -16,10 +16,14 @@ import RecuperacaoSenha from './Usuario/RecuperacaoSenha/RecuperacaoSenha'
 import NovaSenha from './Usuario/NovaSenha/NovaSenha'
 import Login from './Usuario/Login/Login'
 
+import { initDB } from 'react-indexed-db';
+import { DBConfig } from './Gerenciamento/Marca/DataBase/DBConfig'
+
+initDB(DBConfig);
 
 
-
-let store = createStore(reducers, applyMiddleware(thunk))
+let store = createStore(reducers,     
+    applyMiddleware(thunk))
 
 
 ReactDOM.render(<Provider store={store}>
