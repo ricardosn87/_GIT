@@ -21,9 +21,10 @@ import { DBConfig } from './Gerenciamento/Marca/DataBase/DBConfig'
 
 initDB(DBConfig);
 
-
-let store = createStore(reducers,     
-    applyMiddleware(thunk))
+let createStoreWithMiddleware = applyMiddleware(thunk)(createStore)
+let store = createStoreWithMiddleware(reducers,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+/* let store = createStore(reducers,     
+    applyMiddleware(thunk)) */
 
 
 ReactDOM.render(<Provider store={store}>

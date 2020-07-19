@@ -11,6 +11,7 @@ let defaultState = {
     EditMarcaState: null,
     TableListEffectState: true,
     PositionPaginationMarca: 1
+  
 }
 
 export default (state = defaultState, action) => {
@@ -72,6 +73,7 @@ export default (state = defaultState, action) => {
                 ...state,
                 TableListEffectState: action.TableListEffectState
             }
+        
 
         case 'SET_POSITION_PAGINATION_MARCA':
             return {

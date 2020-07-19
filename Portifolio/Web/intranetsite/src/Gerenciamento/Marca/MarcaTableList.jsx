@@ -6,6 +6,7 @@ import * as Actions from '../Marca/MarcaActions'
 import { TableDataDTO } from './Model/TableDataDTO';
 import { MarcaEdit } from './MarcaEdit/MarcaEdit';
 import { IndexDBDTO } from './Model/IndexDBDTO';
+import { useIndexedDB } from 'react-indexed-db';
 
 
 
@@ -14,14 +15,12 @@ export const MarcaTableList = () => {
     var ListaMarcasEdit = []
     const dispatch = useDispatch()
 
-
+    //const [ListaMarcasEdit, SetListaMarcasEdit] = useState([])
+    //const [showPage,SetShowPage] = useState(false)
 
     const ListaMarcas = useSelector(
         state => state.MarcaState.ListaMarcas
-    )
-
-    if (ListaMarcasEdit.length !== ListaMarcas.length)
-        ListaMarcasEdit = ListaMarcas
+    ) 
 
     const MarcaEditClose = useSelector(
         state => state.MarcaState.MarcaEditClose
@@ -47,20 +46,36 @@ export const MarcaTableList = () => {
         state => state.MarcaState.TableListEffectState
     )
 
+    const InitLoad = () => {
 
+        var userProfile = new UserProfile('');
+        let email = userProfile.GetLoginStorage();
+
+        Actions.GetMarcaByEmailUser(dispatch, email)
+
+    }
+
+    const SalvarIndexDB = (ListaMarcas) => {
+
+        if (ListaMarcas !== undefined && ListaMarcas.length > 0) {
+
+            if (ListaMarcasEdit.length !== ListaMarcas.length)
+                ListaMarcasEdit = ListaMarcas
+        }
+    }
 
     const SelectedPagination = (index) => {
         dispatch({ type: 'SET_POSITION_PAGINATION_MARCA', PositionPaginationMarca: index })
     }
 
-    function ControlPagination(ListaMarcasEdit) {
+    const ControlPagination = (ListaMarcasEdit) => {
 
 
-        var controlPosition = []
+        var controlPosition = [];
         var positionPage = 0
         var positionPageMax = 3
 
-        if (ListaMarcasEdit.length > 0 && ListaMarcasEdit !== undefined) {
+        if (ListaMarcasEdit !== undefined && ListaMarcasEdit.length > 0) {
             ListaMarcasEdit.map((value, index) => {
 
 
@@ -75,10 +90,10 @@ export const MarcaTableList = () => {
         return controlPosition
     }
 
-    function SelectLike() {
+    function SelectLike(ListaMarcasEdit) {
 
         var Filter = false
-        var ListaMarcasArray = []
+        var ListaMarcasArray = [];
         if (ListaMarcasEdit !== undefined && ListaMarcasEdit.length > 0) {
             ListaMarcasArray = ListaMarcasEdit
             var ListaMarcasArrayNome = []
@@ -126,35 +141,39 @@ export const MarcaTableList = () => {
                 Filter = false
             }
         }
-        return ListaMarcasArray
+      
+        return ListaMarcasArray;
     }
 
 
+    const ReturnDataRender = (ListaMarcasEdit) => {
 
-    function ReturnDataRender(ListaMarcasEdit) {
+        if (ListaMarcasEdit !== undefined && ListaMarcasEdit.length > 0) {
+            //var reg = ListaMarcasEdit.filter(x => x.idIndex === PositionPaginationMarca);
+            var reg = ListaMarcasEdit
+            if (reg !== undefined && reg.length > 0) {
+                return reg.map((value, index) => {
 
-        var ListaMarcasEditArray = ListaMarcasEdit.filter(x => x.idIndex === PositionPaginationMarca)
-        if (ListaMarcasEditArray !== undefined && ListaMarcasEditArray.length > 0) {
-            return ListaMarcasEditArray.map((value, index) => {
-                return <tr key={value.idMarca}>
-                    <td>{value.nome}</td>
-                    <td>{value.descricao}</td>
-                    <td>{value.nomeEmpresa}</td>
-                    <td><a className="btn btn-primary" id="btnMarcaEdit" href="#"
-                        onClick={() => OpenModalEdit(
-                            value.idMarca,
-                            value.nome,
-                            value.descricao,
-                            value.ativo,
-                            value.idEmpresa
-                        )}
-                        role="button">Editar</a></td>
-                </tr>
-            })
+                    return <tr key={value.idMarca}>
+                        <td>{value.nome}</td>
+                        <td>{value.descricao}</td>
+                        <td>{value.nomeEmpresa}</td>
+                        <td><a className="btn btn-primary" id="btnMarcaEdit" href="#"
+                            onClick={() => OpenModalEdit(
+                                value.idMarca,
+                                value.nome,
+                                value.descricao,
+                                value.ativo,
+                                value.idEmpresa
+                            )}
+                            role="button">Editar</a></td>
+                    </tr>
+                })
+            }
         }
     }
 
-    function OpenModalEdit(IdMarca, Nome, Descricao, Ativo, IdEmpresa) {
+    const OpenModalEdit = (IdMarca, Nome, Descricao, Ativo, IdEmpresa) => {
         var tableDataDTO = new TableDataDTO(IdMarca,
             Nome,
             Descricao,
@@ -164,25 +183,21 @@ export const MarcaTableList = () => {
         dispatch({ type: 'SEND_EDIT_MARCA_DTO', MarcaEditDTO: tableDataDTO })
     }
 
-    if (ValorMarcaFiltered !== null || ValorDescricaoFiltered !== null || ValorEmpresaFiltered > 0) {
-        ListaMarcasEdit = SelectLike()
-    }
 
-    function InitLoad() {
-        dispatch({ type: 'TABLE_LIST_EFFECT', TableListEffectState: false })
-        var userProfile = new UserProfile('');
-        let email = userProfile.GetLoginStorage();
-        if (TableListEffectState) {
-            Actions.GetMarcaByEmailUser(dispatch, email)
-        }
+    if (ValorMarcaFiltered !== null || ValorDescricaoFiltered !== null || ValorEmpresaFiltered > 0 && TableListEffectState === false) {
+        ListaMarcasEdit =  SelectLike(ListaMarcas)
     }
+    else{
+        SalvarIndexDB(ListaMarcas)
+    }
+    
 
     useEffect(() => {
 
         if (TableListEffectState) {
             InitLoad()
+            dispatch({ type: 'TABLE_LIST_EFFECT', TableListEffectState: false })
         }
-
 
     }, [TableListEffectState])
 
