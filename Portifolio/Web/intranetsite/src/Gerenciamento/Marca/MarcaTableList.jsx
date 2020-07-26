@@ -20,7 +20,7 @@ export const MarcaTableList = () => {
 
     const ListaMarcas = useSelector(
         state => state.MarcaState.ListaMarcas
-    ) 
+    )
 
     const MarcaEditClose = useSelector(
         state => state.MarcaState.MarcaEditClose
@@ -141,15 +141,22 @@ export const MarcaTableList = () => {
                 Filter = false
             }
         }
-      
+
         return ListaMarcasArray;
     }
 
 
     const ReturnDataRender = (ListaMarcasEdit) => {
 
+        if (
+            (ValorMarcaFiltered === null || ValorMarcaFiltered === "") && 
+            (ValorDescricaoFiltered === null || ValorDescricaoFiltered === "") && ValorEmpresaFiltered === 0
+             
+        ) {
+            ListaMarcasEdit = ListaMarcasEdit.filter(x => x.idIndex === PositionPaginationMarca);
+        }
+
         if (ListaMarcasEdit !== undefined && ListaMarcasEdit.length > 0) {
-            //var reg = ListaMarcasEdit.filter(x => x.idIndex === PositionPaginationMarca);
             var reg = ListaMarcasEdit
             if (reg !== undefined && reg.length > 0) {
                 return reg.map((value, index) => {
@@ -182,15 +189,13 @@ export const MarcaTableList = () => {
         dispatch({ type: 'SET_MARCA_EDIT_CLOSE', MarcaEditClose: true })
         dispatch({ type: 'SEND_EDIT_MARCA_DTO', MarcaEditDTO: tableDataDTO })
     }
-
-
     if (ValorMarcaFiltered !== null || ValorDescricaoFiltered !== null || ValorEmpresaFiltered > 0 && TableListEffectState === false) {
-        ListaMarcasEdit =  SelectLike(ListaMarcas)
+        ListaMarcasEdit = SelectLike(ListaMarcas)
     }
-    else{
+    else {
         SalvarIndexDB(ListaMarcas)
     }
-    
+
 
     useEffect(() => {
 
