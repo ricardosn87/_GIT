@@ -17,6 +17,7 @@ export class DepartmentComponent implements OnInit {
   dapartments: Department[] = []
   depEdit: Department = null;
   unsubscribe$: Subject<any> = new Subject();
+  editar:boolean = false
 
   constructor(private departmentService: DepartmentService, private snackBar: MatSnackBar) { }
 
@@ -28,7 +29,7 @@ export class DepartmentComponent implements OnInit {
 
   save() {
 
-    if (this.edit) {
+    if (this.editar) {
       this.departmentService.update({ name: this.depName, _id: this.depEdit._id })
         .subscribe(
           (dep) => { this.notify("Updated!") },
@@ -44,15 +45,22 @@ export class DepartmentComponent implements OnInit {
           (err) => { this.notify("Error!" + err) }
         )
     }
-
-
+    this.clearFields()
   }
-  cancel() { }
+
+  clearFields(){
+    this.depName = ""
+    this.depEdit = null
+  }
+  cancel() {
+    this.clearFields()
+   }
+
   delete(dep) {
     this.departmentService.del(dep)
       .subscribe(
         (dep) => this.notify("Deleted!"),
-        (err) => { this.notify("Error!" + err) }
+        (err) => { this.notify("Error!" + err.error.msg) }
       )
   }
   edit(dep: Department) {

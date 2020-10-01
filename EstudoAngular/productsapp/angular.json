@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "productsapp"
+  "defaultProject": "productsapp",
+  "cli": {
+    "analytics": "54bd40e4-4a6a-4133-a6c9-cd1e4ca010ed"
+  }
 }

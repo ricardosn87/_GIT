@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 var productSchema = new Schema({
     name: String,
     price: Number,
-    stoke: Number,
+    stock: Number,
     departments: [{type:mongoose.Schema.Types.ObjectId,ref:'Department'}]
 }, {
     versionKey: false

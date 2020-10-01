@@ -1,4 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { FormBuilder, FormGroup, NgForm, Validators } from '@angular/forms';
+import { ProductService } from './../product.service';
+import { Department } from './../department';
+import { Product } from '../product';
+import { DepartmentService } from './../department.service';
+import { Subject } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-product',
@@ -7,9 +15,80 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductComponent implements OnInit {
 
-  constructor() { }
+  productForm: FormGroup = this.fb.group(
+    {
+      _id: [null],
+      name: ['', [Validators.required, Validators.min(0)]],
+      stock: [0, [Validators.required, Validators.min(0)]],
+      price: [0, [Validators.required, Validators.min(0)]],
+      departments: [[], [Validators.required]]
+    }
+  )
+
+  @ViewChild('form') form: NgForm;
+
+  products: Product[] = []
+  departments: Department[] = []
+
+  private unsubscribe$: Subject<any> = new Subject<any>();
+
+  constructor(private productService: ProductService,
+    private fb: FormBuilder,
+    private departmentService: DepartmentService,
+    private snackbar: MatSnackBar) { }
+
 
   ngOnInit(): void {
+    this.productService.get()
+      .pipe(
+        takeUntil(this.unsubscribe$)
+      )
+      .subscribe(prods => this.products = prods)
+
+    this.departmentService.get()
+      .pipe(
+        takeUntil(this.unsubscribe$)
+      )
+      .subscribe(deps => this.departments = deps)
   }
 
+  ngDestroy() {
+    this.unsubscribe$.next();
+  }
+
+  save() {
+    let data = this.productForm.value;
+    if (data._id != null) {
+      this.productService.update(data).subscribe(
+        (p) => this.notify("Updated!")
+      );
+    }
+    else {
+      this.productService.add(data).subscribe(
+        (p) => this.notify("Inserted!")
+      );
+    }
+    this.resetForm();
+  }
+
+  delete(p: Product) {
+    this.productService.del(p)
+      .subscribe(
+        () => this.notify("Deleted!"),
+        (err) => console.log(err)
+      )
+  }
+
+  edit(p: Product) { 
+    this.productForm.setValue(p)
+  }
+
+  notify(msg: string) {
+    this.snackbar.open(msg, "OK", { duration: 3000 })
+  }
+
+  resetForm(){
+    //this.productForm.reset()
+    this.form.resetForm()
+  }
 }
