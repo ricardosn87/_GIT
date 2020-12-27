@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { Router } from '@angular/router';
+import { AuthService } from '../auth.service';
+import { User } from '../user';
 
 @Component({
   selector: 'app-register',
@@ -10,7 +14,10 @@ export class RegisterComponent implements OnInit {
 
 
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder,
+    private authService: AuthService,
+    private snackBar: MatSnackBar,
+    private router: Router) { }
 
   formRegister = this.fb.group({
     'firstname': ['', [Validators.required]],
@@ -41,8 +48,28 @@ export class RegisterComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onSubmit(){
-    
-  }
+  onSubmit() {
+    console.log(this.formRegister.value)
+    let u: User = {
+      ...this.formRegister.value,
+      password: this.formRegister.value.password1
+    }
 
+    this.authService.register(u)
+      .subscribe(
+        (u) => {
+          this.snackBar.open(
+            'Sucesso no Cadastro',
+            'OK', { duration: 2000 }
+          );
+          this.router.navigateByUrl('/auth/login')
+        },
+        (err) => {
+          this.snackBar.open(
+            err.error.message,
+            'Erro', { duration: 2000 }
+          )
+        }
+      )
+  }
 }

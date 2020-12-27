@@ -16,9 +16,9 @@ export class MainService {
   getPeoples(): Observable<Person[]> {
     return this.http.get<Person[]>(`${this.url}/people`)
       .pipe(
-        tap(p=>console.log(p)),
+       
         catchError((e) => {
-          console.log(e);
+       
           return throwError(e);
         })
       )
@@ -26,9 +26,9 @@ export class MainService {
   getProducts(): Observable<Product[]> {
     return this.http.get<Product[]>(`${this.url}/products`)
       .pipe(
-        tap(p=>console.log(p)),
+       
         catchError((e) => {
-          console.log(e);
+         
           return throwError(e);
         })
       )
