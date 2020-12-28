@@ -1,0 +1,81 @@
+<div fxFill>
+
+  <mat-tab-group mat-stretch-tabs class="mat-elevation-z4" fxFill>
+    <mat-tab label="All products">
+      <div fxLayout="column" fxLayoutAlign="space-around stretch" style="padding: 20px; background: #f0f0f0">
+        <form [formGroup]="productForm" fxLayout="row" fxLayoutAlign="space-around stretch" #f>
+          <mat-form-field fxFlex="40">
+            <input matInput placeholder="Product name" formControlName='name' #name>
+          </mat-form-field>
+
+          <mat-form-field fxFlex="20">
+            <input matInput placeholder="Stock" type="number" formControlName='stock'>
+          </mat-form-field>
+
+          <mat-form-field fxFlex="20">
+            <input matInput placeholder="Price" type="number" formControlName='price'>
+            <span matPrefix>$&nbsp;</span>
+          </mat-form-field>
+
+          <div fxLayout="row" fxLayoutAlign="end end">
+            <button mat-button color="primary" type="submit" [disabled]="!productForm.valid" (click)="onSubmit()">Submit</button>
+            <button mat-button color="warn" type="reset">Cancel</button>
+          </div>
+        </form>
+      </div>
+      <mat-divider></mat-divider>
+
+
+      <div class="table-container mat-elevation-z8" >
+        <table mat-table [dataSource]="products$" style="width: 100%;">
+
+          <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element">{{element.name}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="price">
+            <th mat-header-cell *matHeaderCellDef> Price </th>
+            <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="stock">
+            <th mat-header-cell *matHeaderCellDef> Stock </th>
+            <td mat-cell *matCellDef="let element"> {{element.stock}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="operations">
+            <th mat-header-cell *matHeaderCellDef></th>
+            <td mat-cell *matCellDef="let element">
+              <button mat-button color="primary" (click)="edit(element)">
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button mat-button color="accent" (click)="del(element)">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </td>
+          </ng-container>
+
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        
+      </div>     
+
+    </mat-tab>
+    <mat-tab label="Find">
+
+      <div fxLayout="column" fxLayoutAlign="space-around stretch" style="padding: 20px; background: #f0f0f0">
+        <mat-form-field fxFlex>
+          <input matInput autocomplete="off" placeholder="Search products" (keyup)="filter($event)">
+        </mat-form-field>
+      </div>
+
+      <ul>
+        <li *ngFor="let p of filterProducts$">{{p.name}}</li>      
+      </ul>
+
+    </mat-tab>
+  </mat-tab-group>
+</div>
