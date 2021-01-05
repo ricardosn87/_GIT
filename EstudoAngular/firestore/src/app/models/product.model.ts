@@ -2,5 +2,5 @@ export class Prodcut {
     name: string;
     stock: number;
     price: number;
-    id?: string
+    id?: string | null
 }

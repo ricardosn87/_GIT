@@ -1,0 +1,15 @@
+<div>
+    <mat-list>
+        <h3 mat-subheader>
+            Files
+        </h3>
+        <mat-list-item *ngFor="let f of files">
+            <mat-icon mat-list-icon>folder</mat-icon>
+            <h4 mat-line>{{f.filename}}</h4>
+            <h4 mat-line>{{f.date | date:'medium'}} {{f.size}} bytes</h4>
+            <a [href]="f.path">
+                <mat-icon>cloud_download</mat-icon>
+            </a>
+        </mat-list-item>
+    </mat-list>
+</div>

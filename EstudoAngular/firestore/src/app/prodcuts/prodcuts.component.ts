@@ -54,8 +54,9 @@ export class ProdcutsComponent implements OnInit {
         this.productForm.reset({ name: '', stock: '', price: 0, id: undefined })
         this.productName.nativeElement.focus()
       })
-      .catch(() => {
-        this.snackBar.open('Erro ao Adcionar o Produto', 'OK', { duration: 5000 })
+      .catch((err) => {
+        console.log(err)
+        this.snackBar.open('Erro ao Adcionar o Produto: ' + err, 'OK', { duration: 5000 })
       })
   }
   updateProduct(p: Prodcut) {
