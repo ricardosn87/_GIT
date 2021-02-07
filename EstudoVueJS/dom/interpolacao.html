@@ -1,0 +1,22 @@
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<div id="app">
+    <p>{{ contador }}</p>
+    <p>{{ contador > 50 ? 'maior':'menor' }}</p>
+    <button v-on:click="somar(contadorMaior)">Somar 1</button>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            contadorMaior: 10,
+            contador: 0
+        },
+        methods: {
+            somar(v) {
+                this.contador += v
+            }
+        }
+    });
+</script>

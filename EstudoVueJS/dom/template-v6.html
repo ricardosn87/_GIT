@@ -1,0 +1,26 @@
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+<div id="app">
+    <p v-once>{{ title }}</p>
+    <p>{{ saudacao() }}</p>
+    <a v-bind:href="link">Google</a>
+    <hr>
+    <p v-html="linkHTML"></p>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            title: 'Hello World!',
+            link: "http://google.com.br",
+            linkHTML: "<a href='http://google.com'>Google</a>"
+        },
+        methods: {
+            saudacao: function () {
+                this.title = "Bom dia"
+                return this.title
+            }
+        }
+    });
+</script>
