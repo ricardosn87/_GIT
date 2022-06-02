@@ -1,0 +1,51 @@
+<head>
+    <meta charset="UTF-8">
+    <title id="meuTitulo"></title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+
+<div id="app">
+   {{nome}} {{sobrenome}} {{1 + 1}}
+</div>
+
+<script>
+
+    function MeuVue(params) {
+        this.$el = document.querySelector(params.el)
+        this.$data = params.data
+
+        for (let atr in this.$data) {
+            Object.defineProperty(this, atr, {
+                get: () => {
+                    return this.$data[atr]
+                },
+                set: value => {
+                    this.$data[atr] = value
+                }
+            })
+        }
+    }
+
+    const vm = new MeuVue({
+        el: '#app',
+        data:  {
+            
+                nome: 'Maria',
+                sobrenome: 'Silva'
+            
+        },
+    })
+
+    console.log(vm.nome)
+    console.log(vm.$data.nome)
+
+    vm.nome = 'Pedro'
+    console.log(vm.$data.nome)
+
+    function namePage() {
+        var path = window.location.pathname;
+        var page = path.split("/").pop();
+        return page
+    };
+    document.getElementById('meuTitulo').setAttribute('title', namePage());
+</script>

@@ -1,0 +1,54 @@
+<head>
+    <meta charset="UTF-8">
+    <title id="meuTitulo"></title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<div id="app">
+    <comp></comp>
+    <comp></comp>
+    <comp></comp>
+</div>
+
+<script>
+
+    Vue.component('comp', {
+        template: `
+        <div>
+            <h1> {{aula}}</h1>
+            <h1> {{modulo}}</h1>
+            <button @click="alterarAula">alterar aula</button>
+            <button @click="alterarModulo">alterar modulo</button>
+        </div>      
+        `,
+        data: function () {
+            return {
+                aula: 'Aula: Montando Instacia vue',
+                modulo: 'Módulo: Instancia Vue'
+            }
+        },
+        methods: {
+            alterarAula() {
+                this.aula += '#'
+            },
+            alterarModulo() {
+                this.modulo += '#'
+
+            }
+        }
+       
+    })
+
+    const vm = new Vue({
+        el: '#app',
+    })
+
+    //vm.$mount('#app')
+
+
+    function namePage() {
+        var path = window.location.pathname;
+        var page = path.split("/").pop();
+        return page
+    };
+    document.getElementById('meuTitulo').setAttribute('title', namePage());
+</script>

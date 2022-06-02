@@ -1,0 +1,45 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Matador de Monstro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+
+<div id="app1">
+    {{titulo1}}
+    <button @click="alterar">alterar</button>
+</div>
+<div id="app2">
+    {{titulo2}}
+    <button @click="alterar">alterar</button>
+</div>
+
+<script>
+    const vm1 = new Vue({
+        el: '#app1',
+        data: {
+            titulo1: 'teste 1'
+        },
+        methods: {
+            alterar() {
+                vm2.titulo2 += '???????'
+            }
+        },
+    })
+    const vm2 = new Vue({
+        el: '#app2',
+        data: {
+            titulo2: 'teste 2'
+        },
+        methods: {
+            alterar() {
+                vm1.titulo1 += '!!!!!!!'
+            }
+        },
+    })
+
+    setTimeout(()=>{
+        vm1.titulo1 = "alterado pelo time!"
+    },2000)
+</script>
