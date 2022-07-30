@@ -4,7 +4,7 @@
       <v-card-title class="headline">
         <strong
           >{{ stock.name }}<small>
-            (Preço: {{ stock.price }} | Qtde: {{ stock.quantity }})</small
+            (Preço: {{ stock.price | currency }} | Qtde: {{ stock.quantity }})</small
           ></strong
         >
       </v-card-title>
@@ -15,12 +15,13 @@
           label="Quantidade"
           type="number"
           v-model.number="quantity"
+          :error="insufficientQuantity || !Number.isInteger(quantity)"
         />
         <v-btn
           class="blue darken-3 white--tex"
-          :disabled="quantity <= 0 || !Number.isInteger(quantity)"
+          :disabled="insufficientQuantity || quantity <= 0 || !Number.isInteger(quantity)"
           @click="sellStock"
-          >Vender</v-btn
+          >{{insufficientQuantity ? 'Insuficiente':'Vender'}}</v-btn
         >
       </v-container>
     </v-card>
@@ -36,6 +37,11 @@ export default {
     return {
       quantity: 0,
     };
+  },
+  computed:{
+     insufficientQuantity(){
+       return this.quantity > this.stock.quantity
+     }
   },
   methods: {
     ...mapActions({ sellStockAction: "sellStock" }),
