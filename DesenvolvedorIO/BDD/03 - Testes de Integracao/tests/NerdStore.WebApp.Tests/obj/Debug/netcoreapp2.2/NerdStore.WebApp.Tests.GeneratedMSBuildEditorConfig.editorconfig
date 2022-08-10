@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NerdStore.WebApp.Tests
+build_property.ProjectDir = C:\Users\ricar\source\repos\DesenvovledorIO\BDD\03 - Testes de Integracao\tests\NerdStore.WebApp.Tests\

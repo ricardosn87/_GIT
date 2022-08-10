@@ -1,0 +1,41 @@
+{
+  "GlobalConfiguration": {
+    "Baseurl": "https://localhost:44337",
+    "ServiceDiscoveryProvider": {
+      "Scheme": "http",
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul" 
+    } 
+  },
+  "Routes": [
+    {
+      "ServiceName": "Catalogo",
+      "LoadBalancerOptions": {
+        "Type": "LeastConnection"
+      },
+      "DownstreamPathTemplate": "/api/catalogo",
+      "DownstreamScheme": "https",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "localhost",
+      //    "Port": 44378
+      //  }
+      //],
+      "UpstreamPathTemplate": "/gateway/catalogo",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/cliente",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44309
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/cliente",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}

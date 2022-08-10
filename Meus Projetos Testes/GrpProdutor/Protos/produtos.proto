@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcProdutor.Protos";
+
+package ProdutosAPI;
+
+service ProdutoCompras {
+	rpc ObterProdutoCompras(ProdutoComprasRequest) returns (ProdutoComprasResponse){
+
+	}
+}
+message ProdutoComprasRequest{
+	int32 id = 1;
+	string nome = 2;
+	int32 idade = 3;
+}
+
+message ProdutoComprasResponse{
+	int32 id = 1;
+	string nome = 2;
+	int32 idade = 3;
+}

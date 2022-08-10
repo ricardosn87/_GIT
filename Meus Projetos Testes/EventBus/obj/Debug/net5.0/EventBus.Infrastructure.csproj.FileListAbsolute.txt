@@ -1,0 +1,11 @@
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\bin\Debug\net5.0\EventBus.Infrastructure.deps.json
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\bin\Debug\net5.0\EventBus.Infrastructure.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\bin\Debug\net5.0\ref\EventBus.Infrastructure.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\bin\Debug\net5.0\EventBus.Infrastructure.pdb
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\obj\Debug\net5.0\EventBus.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\obj\Debug\net5.0\EventBus.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\obj\Debug\net5.0\EventBus.Infrastructure.AssemblyInfo.cs
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\obj\Debug\net5.0\EventBus.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\obj\Debug\net5.0\EventBus.Infrastructure.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\obj\Debug\net5.0\ref\EventBus.Infrastructure.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventBus\obj\Debug\net5.0\EventBus.Infrastructure.pdb

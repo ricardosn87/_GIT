@@ -1,0 +1,15 @@
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\bin\Debug\net5.0\ModelsEvents.deps.json
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\bin\Debug\net5.0\ModelsEvents.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\bin\Debug\net5.0\ref\ModelsEvents.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\bin\Debug\net5.0\ModelsEvents.pdb
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\bin\Debug\net5.0\EventBus.Infrastructure.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\bin\Debug\net5.0\EventBus.Infrastructure.pdb
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.csproj.AssemblyReference.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.AssemblyInfoInputs.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.AssemblyInfo.cs
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.csproj.CoreCompileInputs.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.csproj.CopyComplete
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ref\ModelsEvents.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\ModelsQueue\obj\Debug\net5.0\ModelsEvents.pdb

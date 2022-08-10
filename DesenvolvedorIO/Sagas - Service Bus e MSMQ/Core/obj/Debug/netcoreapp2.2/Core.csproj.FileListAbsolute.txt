@@ -1,0 +1,10 @@
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\bin\Debug\netcoreapp2.2\Core.deps.json
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\bin\Debug\netcoreapp2.2\Core.dll
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\bin\Debug\netcoreapp2.2\Core.pdb
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\obj\Debug\netcoreapp2.2\Core.csproj.AssemblyReference.cache
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\obj\Debug\netcoreapp2.2\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfoInputs.cache
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\obj\Debug\netcoreapp2.2\Core.csproj.CoreCompileInputs.cache
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\obj\Debug\netcoreapp2.2\Core.dll
+C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Core\obj\Debug\netcoreapp2.2\Core.pdb

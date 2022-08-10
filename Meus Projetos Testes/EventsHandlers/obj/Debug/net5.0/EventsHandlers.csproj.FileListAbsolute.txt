@@ -1,0 +1,17 @@
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\EventsHandlers.deps.json
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\EventsHandlers.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\ref\EventsHandlers.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\EventsHandlers.pdb
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\EventBus.Infrastructure.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\ModelsEvents.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\EventBus.Infrastructure.pdb
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\bin\Debug\net5.0\ModelsEvents.pdb
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.csproj.AssemblyReference.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.AssemblyInfoInputs.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.AssemblyInfo.cs
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.csproj.CoreCompileInputs.cache
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.csproj.CopyComplete
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\ref\EventsHandlers.dll
+C:\Users\ricar\source\repos\ProjetosRabbitMq\EventsHandlers\obj\Debug\net5.0\EventsHandlers.pdb

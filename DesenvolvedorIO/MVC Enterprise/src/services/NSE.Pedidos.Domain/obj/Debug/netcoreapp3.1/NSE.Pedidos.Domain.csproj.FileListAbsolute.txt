@@ -1,0 +1,13 @@
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Pedidos.Domain.deps.json
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Pedidos.Domain.dll
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Pedidos.Domain.pdb
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.AssemblyReference.cache
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.AssemblyInfoInputs.cache
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.AssemblyInfo.cs
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.CopyComplete
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.dll
+C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.pdb
