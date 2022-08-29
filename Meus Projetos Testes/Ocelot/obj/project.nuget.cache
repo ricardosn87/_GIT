@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E0/Ml4ww8TfTTrqRCfdIfBkYFDAVNu6BaF7If0BrDAhW/qZf04mOnr+dluhI6KBZAR/XTZ2Q1yMPm43wfUfEDA==",
+  "dgSpecHash": "qRaVPG/Epzm+yFuQzogyzp+sqCwx1L8LaWD15IZ6Ndn9+LGvPp2k8iHTUtdhJqgm8k3FvMbqceQRHMd8GLndUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\Ocelot\\GatewayOcelot.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\Ocelot\\GatewayOcelot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\consul\\0.7.2.6\\consul.0.7.2.6.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",

@@ -2,7 +2,7 @@
 using FluentValidation.Results;
 using MediatR;
 
-namespace NSE.Core.Messages
+namespace SexFriend.Core.Messages
 {
     public abstract class Command : Message, IRequest<ValidationResult>
     {

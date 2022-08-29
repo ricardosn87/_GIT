@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RebusRabbitMq\\RebusRabbitMq.csproj": {}
+    "C:\\_GIT\\Meus Projetos Testes\\RebusRabbitMq\\RebusRabbitMq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RebusRabbitMq\\RebusRabbitMq.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\RebusRabbitMq\\RebusRabbitMq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RebusRabbitMq\\RebusRabbitMq.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\RebusRabbitMq\\RebusRabbitMq.csproj",
         "projectName": "RebusRabbitMq",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RebusRabbitMq\\RebusRabbitMq.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\RebusRabbitMq\\RebusRabbitMq.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RebusRabbitMq\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\RebusRabbitMq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -74,7 +74,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -86,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

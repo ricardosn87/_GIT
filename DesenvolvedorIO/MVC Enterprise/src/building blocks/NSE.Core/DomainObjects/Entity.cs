@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using NSE.Core.Messages;
+using SexFriend.Core.Messages;
 
-namespace NSE.Core.DomainObjects
+namespace SexFriend.Core.DomainObjects
 {
     public abstract class Entity
     {

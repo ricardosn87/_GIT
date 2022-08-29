@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace NSE.Core.DomainObjects
+namespace SexFriend.Core.DomainObjects
 {
     public class Email
     {

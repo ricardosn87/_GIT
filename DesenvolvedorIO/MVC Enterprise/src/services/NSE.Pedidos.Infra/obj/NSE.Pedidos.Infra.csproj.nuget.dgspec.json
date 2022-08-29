@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj": {}
+    "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
         "projectName": "NSE.Core",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -79,18 +79,97 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Principal.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
-        "projectName": "NSE.Pedidos.Domain",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Principal.Core.csproj",
+        "projectName": "NSE.Principal.Core",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Principal.Core.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NetDevPack": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "mediatr": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
+        "projectName": "NSE.Pedidos.Domain",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -110,8 +189,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
               }
             }
           }
@@ -140,18 +219,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
         "projectName": "NSE.Pedidos.Infra",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\NSE.Pedidos.Infra.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -171,11 +250,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Principal.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Principal.Core.csproj"
+              },
+              "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj"
               }
             }
           }
@@ -234,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
         }
       }
     }

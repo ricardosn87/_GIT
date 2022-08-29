@@ -1,0 +1,13 @@
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.deps.json
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.pdb
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\SexFriend.Principal.Core.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\bin\Debug\netcoreapp3.1\SexFriend.Principal.Core.pdb
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.csproj.AssemblyReference.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.AssemblyInfoInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.AssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.csproj.CoreCompileInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.csproj.CopyComplete
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\obj\Debug\netcoreapp3.1\SexFriend.Principal.MessageBus.pdb

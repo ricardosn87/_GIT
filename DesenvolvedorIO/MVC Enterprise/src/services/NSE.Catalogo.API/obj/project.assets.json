@@ -6015,11 +6015,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
+      "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
       "projectName": "NSE.Catalogo.API",
-      "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
+      "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\obj\\",
+      "outputPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6039,14 +6039,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
-              "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+            "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+              "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
             },
-            "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj": {
-              "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj"
+            "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj": {
+              "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.MessageBus\\NSE.MessageBus.csproj"
             },
-            "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
-              "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
+            "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
+              "projectPath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
             }
           }
         }
@@ -6114,7 +6114,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
       }
     }
   }

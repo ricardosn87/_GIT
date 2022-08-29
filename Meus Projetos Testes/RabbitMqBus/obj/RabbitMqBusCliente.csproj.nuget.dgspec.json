@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RabbitMqBus\\RabbitMqBusCliente.csproj": {}
+    "C:\\_GIT\\Meus Projetos Testes\\RabbitMqBus\\RabbitMqBusCliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\EventBus.Infrastructure.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\EventBus.Infrastructure.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj",
         "projectName": "EventBus.Infrastructure",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\EventBus.Infrastructure.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -75,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventsHandlers\\EventsHandlers.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\EventsHandlers\\EventsHandlers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventsHandlers\\EventsHandlers.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\EventsHandlers\\EventsHandlers.csproj",
         "projectName": "EventsHandlers",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventsHandlers\\EventsHandlers.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\EventsHandlers\\EventsHandlers.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventsHandlers\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\EventsHandlers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,11 +107,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\EventBus.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\EventBus.Infrastructure.csproj"
+              "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj": {
+                "projectPath": "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj"
+              "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj": {
+                "projectPath": "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj"
               }
             }
           }
@@ -130,7 +131,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -139,18 +141,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj",
         "projectName": "ModelsEvents",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -170,8 +172,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\EventBus.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventBus\\EventBus.Infrastructure.csproj"
+              "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj": {
+                "projectPath": "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj"
               }
             }
           }
@@ -191,7 +193,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -200,18 +203,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RabbitMqBus\\RabbitMqBusCliente.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\RabbitMqBus\\RabbitMqBusCliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RabbitMqBus\\RabbitMqBusCliente.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\RabbitMqBus\\RabbitMqBusCliente.csproj",
         "projectName": "RabbitMqBusCliente",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RabbitMqBus\\RabbitMqBusCliente.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\RabbitMqBus\\RabbitMqBusCliente.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RabbitMqBus\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\RabbitMqBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -231,11 +234,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventsHandlers\\EventsHandlers.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EventsHandlers\\EventsHandlers.csproj"
+              "C:\\_GIT\\Meus Projetos Testes\\EventsHandlers\\EventsHandlers.csproj": {
+                "projectPath": "C:\\_GIT\\Meus Projetos Testes\\EventsHandlers\\EventsHandlers.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj"
+              "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj": {
+                "projectPath": "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj"
               }
             }
           }
@@ -265,7 +268,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -277,7 +281,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

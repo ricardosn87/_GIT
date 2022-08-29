@@ -1,6 +1,6 @@
-﻿using NSE.Core.Utils;
+﻿using SexFriend.Core.Utils;
 
-namespace NSE.Core.DomainObjects
+namespace SexFriend.Core.DomainObjects
 {
     public class Cpf
     {

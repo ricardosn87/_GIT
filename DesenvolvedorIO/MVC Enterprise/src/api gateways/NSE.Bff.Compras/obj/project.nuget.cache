@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DYAQDieSHV/ei3JNFS/c7Q7Ht4qk4FKHQSq22VfB4YLgboVVmHFq1krj3c7L4J+4Fl7rcUz0lyI+puO4txH1Wg==",
+  "dgSpecHash": "oW811PKC5qO0Mt61S1AN8Zr0DKkPIfgU6oqGjl1Bfb2sBIUlX6R6n7sPYwZ3hT+BefQtT4tUtIpjkplCq9RTEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\api gateways\\NSE.Bff.Compras\\NSE.Bff.Compras.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

@@ -7,6 +7,7 @@ using NSE.Core.DomainObjects;
 using NSE.Core.Messages.Integration;
 using NSE.MessageBus;
 using NSE.Pedidos.Domain.Pedidos;
+using SexFriend.Core.DomainObjects;
 
 namespace NSE.Pedidos.API.Services
 {

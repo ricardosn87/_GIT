@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NSE.Core.DomainObjects
+namespace SexFriend.Core.DomainObjects
 {
     public class DomainException : Exception
     {

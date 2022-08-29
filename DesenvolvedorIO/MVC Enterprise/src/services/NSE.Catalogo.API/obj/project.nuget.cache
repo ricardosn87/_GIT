@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFpbFwQuHMgO7mExFdW5mG2avRBZA20/ovlJh066xZqz+8yNtFtioBmDAMWxR8u9zwWtCyyBF+zaF/PbvUrnzA==",
+  "dgSpecHash": "13VWXS//gQr4FN0eU1ajeWGQYIZgO2wG+k0ixhBa+XKomWMcDtJ9sejzSjFaINCwVoYcdnDpMD5MKCxnW9Shww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",

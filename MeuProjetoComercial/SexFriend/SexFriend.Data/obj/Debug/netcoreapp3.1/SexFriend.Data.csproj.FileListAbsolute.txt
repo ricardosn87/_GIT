@@ -1,0 +1,13 @@
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\bin\Debug\netcoreapp3.1\SexFriend.Data.deps.json
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\bin\Debug\netcoreapp3.1\SexFriend.Data.dll
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\bin\Debug\netcoreapp3.1\SexFriend.Data.pdb
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\bin\Debug\netcoreapp3.1\SexFriend.Entities.dll
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\bin\Debug\netcoreapp3.1\SexFriend.Entities.pdb
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.csproj.AssemblyReference.cache
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.AssemblyInfoInputs.cache
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.AssemblyInfo.cs
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.csproj.CoreCompileInputs.cache
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.csproj.CopyComplete
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.dll
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Data\obj\Debug\netcoreapp3.1\SexFriend.Data.pdb

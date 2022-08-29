@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7gRYvHD9AA9sRFeaASUJzD8WgVuiT7vWI/FwT7z7317lwrTD28w+xK6Vm7HcmLW2iXC2Jqd79QZL3yxrcsN8XA==",
+  "dgSpecHash": "ZfvUYuGPoEn7sz3bVlV5+CtpKxCmOigxWc0acmss9VXV9kltgLKug/pETnLLggIN6QhgY9kKjE+JaVl+7M/WDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\GrpcConsumidor\\GrpcConsumidor.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\GrpcConsumidor\\GrpcConsumidor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\grpc.core.api\\2.42.0\\grpc.core.api.2.42.0.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿namespace NSE.Core.DomainObjects
+﻿namespace SexFriend.Core.DomainObjects
 {
     public interface IAggregateRoot { }
 }

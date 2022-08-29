@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = NSE.Principal.MessageBus
+build_property.ProjectDir = C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.MessageBus\

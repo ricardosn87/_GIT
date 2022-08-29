@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace NSE.Core.Messages.Integration
+namespace SexFriend.Core.Messages.Integration
 {
     public class PedidoAutorizadoIntegrationEvent : IntegrationEvent
     {

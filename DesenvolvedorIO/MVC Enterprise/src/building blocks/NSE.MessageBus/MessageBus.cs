@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading.Tasks;
 using EasyNetQ;
-using NSE.Core.Messages.Integration;
+using SexFriend.Core.Messages.Integration;
 using Polly;
 using RabbitMQ.Client.Exceptions;
 
-namespace NSE.MessageBus
+namespace SexFriend.Principal.MessageBus
 {
     public class MessageBus : IMessageBus
     {
@@ -47,29 +47,29 @@ namespace NSE.MessageBus
             _bus.SubscribeAsync(subscriptionId, onMessage);
         }
 
-        public TResponse Request<TRequest, TResponse>(TRequest request) where TRequest : IntegrationEvent
-            where TResponse : ResponseMessage
+        public TRespoSexFriend Request<TRequest, TRespoSexFriend>(TRequest request) where TRequest : IntegrationEvent
+            where TRespoSexFriend : RespoSexFriendMessage
         {
             TryConnect();
-            return _bus.Request<TRequest, TResponse>(request);
+            return _bus.Request<TRequest, TRespoSexFriend>(request);
         }
 
-        public async Task<TResponse> RequestAsync<TRequest, TResponse>(TRequest request)
-            where TRequest : IntegrationEvent where TResponse : ResponseMessage
+        public async Task<TRespoSexFriend> RequestAsync<TRequest, TRespoSexFriend>(TRequest request)
+            where TRequest : IntegrationEvent where TRespoSexFriend : RespoSexFriendMessage
         {
             TryConnect();
-            return await _bus.RequestAsync<TRequest, TResponse>(request);
+            return await _bus.RequestAsync<TRequest, TRespoSexFriend>(request);
         }
 
-        public IDisposable Respond<TRequest, TResponse>(Func<TRequest, TResponse> responder)
-            where TRequest : IntegrationEvent where TResponse : ResponseMessage
+        public IDisposable Respond<TRequest, TRespoSexFriend>(Func<TRequest, TRespoSexFriend> responder)
+            where TRequest : IntegrationEvent where TRespoSexFriend : RespoSexFriendMessage
         {
             TryConnect();
             return _bus.Respond(responder);
         }
 
-        public IDisposable RespondAsync<TRequest, TResponse>(Func<TRequest, Task<TResponse>> responder)
-            where TRequest : IntegrationEvent where TResponse : ResponseMessage
+        public IDisposable RespondAsync<TRequest, TRespoSexFriend>(Func<TRequest, Task<TRespoSexFriend>> responder)
+            where TRequest : IntegrationEvent where TRespoSexFriend : RespoSexFriendMessage
         {
             TryConnect();
             return _bus.RespondAsync(responder);
@@ -77,7 +77,7 @@ namespace NSE.MessageBus
 
         private void TryConnect()
         {
-            if(IsConnected) return;
+            if (IsConnected) return;
 
             var policy = Policy.Handle<EasyNetQException>()
                 .Or<BrokerUnreachableException>()

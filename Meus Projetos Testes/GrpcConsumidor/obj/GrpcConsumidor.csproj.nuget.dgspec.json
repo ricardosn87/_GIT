@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\GrpcConsumidor\\GrpcConsumidor.csproj": {}
+    "C:\\_GIT\\Meus Projetos Testes\\GrpcConsumidor\\GrpcConsumidor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\GrpcConsumidor\\GrpcConsumidor.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\GrpcConsumidor\\GrpcConsumidor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\GrpcConsumidor\\GrpcConsumidor.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\GrpcConsumidor\\GrpcConsumidor.csproj",
         "projectName": "GrpcConsumidor",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\GrpcConsumidor\\GrpcConsumidor.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\GrpcConsumidor\\GrpcConsumidor.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\GrpcConsumidor\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\GrpcConsumidor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -76,7 +76,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -88,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

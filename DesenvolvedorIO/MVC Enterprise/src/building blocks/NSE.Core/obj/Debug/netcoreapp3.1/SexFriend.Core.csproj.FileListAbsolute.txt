@@ -1,0 +1,10 @@
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\bin\Debug\netcoreapp3.1\SexFriend.Core.deps.json
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\bin\Debug\netcoreapp3.1\SexFriend.Core.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\bin\Debug\netcoreapp3.1\SexFriend.Core.pdb
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\SexFriend.Core.csproj.AssemblyReference.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\SexFriend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\SexFriend.Core.AssemblyInfoInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\SexFriend.Core.AssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\SexFriend.Core.csproj.CoreCompileInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\SexFriend.Core.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\SexFriend.Core.pdb

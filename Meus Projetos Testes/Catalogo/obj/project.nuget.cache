@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yIknjm6RKvl3lAxxVJ/QFIrrZU0phPDxiUJI0XdjwVP25KnFG8Eu0VYDHhkdsqKKFshI7bDznh2rmhdXPD3OyQ==",
+  "dgSpecHash": "P7Taw8sEchWmNztn7a3+Nhq4rGAMoTuLSdZvYQC+wtNY9daQMwuhpVxFV6YZVLkxbkFZcPCzMsAumGucBDQ+KA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\Catalogo\\Catalogo.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\Catalogo\\Catalogo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\consul\\1.6.10.4\\consul.1.6.10.4.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

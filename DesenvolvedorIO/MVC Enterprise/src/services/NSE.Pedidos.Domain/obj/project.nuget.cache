@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JPNKGh/A/bqNGXoR67LmkThiHV+GTxu+hjZ0Tfm4wymNB4lZmhqpDKwK+GrRx2aVAFbyRQYSVGK+AfbnAeec9w==",
+  "dgSpecHash": "M8rMlDFizzqFq3NCsItKruR4xOrVhC9DBVV8+yJ1njFmufZ0rCmBMKZZCqj8QYYqqYDAf7AA0kJMWyrUCwJAWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Pedidos.Domain\\NSE.Pedidos.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",

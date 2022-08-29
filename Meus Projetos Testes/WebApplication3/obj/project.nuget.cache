@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OM84YxXrSCQFCt45Vy1DRGeOoMSH2oXcO06HURwviv6VS3LvTc/unUBJWM0d3jEMSQnX0mJHhFCiPVgkxi2Ldw==",
+  "dgSpecHash": "TXGysU6XA3ILQpM6IBy1oJpDJwQl/vmMQcufJEbA6B8+we5Ja7rJr7QSxzxhVMUAkS1Q9EYrImrQS74MQUZIuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\WebApplication3\\EasyNetQBus.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\WebApplication3\\EasyNetQBus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq\\6.3.1\\easynetq.6.3.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq.di.simpleinjector\\5.1.1\\easynetq.di.simpleinjector.5.1.1.nupkg.sha512",

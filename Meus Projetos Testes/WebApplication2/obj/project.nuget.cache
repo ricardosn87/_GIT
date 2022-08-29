@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bXTdD6UIzDWAnzfx5QCAKFKWCRZTXKdmuGDKqaBQf6sN5pgLNwnHld/FNCu6n1QNBpGB/zOB2880nxwwKnAaUQ==",
+  "dgSpecHash": "MiL3M0FZcAZxhxR6GGeFoBVo6cWnY/aDGkSpMuDcn0IkCQq9CiMWqlP8M0sC0wanoe+Si1cdaICmrBdJ8y0DCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\WebApplication2\\EasyNetQBus2.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\WebApplication2\\EasyNetQBus2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq.di.simpleinjector\\5.1.1\\easynetq.di.simpleinjector.5.1.1.nupkg.sha512",
@@ -42,7 +42,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net5.0"

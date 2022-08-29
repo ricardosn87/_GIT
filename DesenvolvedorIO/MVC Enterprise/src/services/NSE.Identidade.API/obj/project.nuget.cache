@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rhnEba4uMDFUpQzYdGGOclq/g0zhC0AJySq7HhSlOMUAArrjWW7t3fSMwgSQuEvpGbUGJz9yfD6ulzBj7TilTQ==",
+  "dgSpecHash": "7tc9RYPx6UhIyyiUUm+ShtEENyxXAxQenXH6btGtsklndYSEtHitEUVVbZPfbHMHDcWGOmGpZB9VYawORcG5MA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

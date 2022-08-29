@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fzzDgNpaYpQGWcInouazkgZ/MzoSCGCd9X7w5CHCPEHVEyEelIXFZ7fZexbe7kfy4MrSZBlJJ2CRlutsx68o4A==",
+  "dgSpecHash": "tl7TFTfhKg+lO5lRAGvAsyWqT8yIdZK8SsUiknzds/KdqCyEQ+53vMlwUOyZ6KnOKy1O0B6YKo7YXIKlGmfFJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\EasyNetQRabbitMQ\\MassTransitRabbitMQ.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\EasyNetQRabbitMQ\\MassTransitRabbitMQ.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\automatonymous\\5.1.3\\automatonymous.5.1.3.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\greenpipes\\4.0.1\\greenpipes.4.0.1.nupkg.sha512",

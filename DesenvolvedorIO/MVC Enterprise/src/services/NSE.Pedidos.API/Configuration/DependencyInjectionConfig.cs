@@ -2,6 +2,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using NetDevPack.Mediator;
 using NSE.Core.Mediator;
 using NSE.Pedidos.API.Application.Commands;
 using NSE.Pedidos.API.Application.Events;

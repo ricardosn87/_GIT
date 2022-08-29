@@ -16,3 +16,10 @@ C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedi
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.dll
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.pdb
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.genruntimeconfig.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.csproj.AssemblyReference.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.AssemblyInfoInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.AssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.csproj.CoreCompileInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Infra\obj\Debug\netcoreapp3.1\NSE.Pedidos.Infra.pdb

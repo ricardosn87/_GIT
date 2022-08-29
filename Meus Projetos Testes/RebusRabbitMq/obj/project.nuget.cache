@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O2/NWL7J3fD/ybIXTgASdmWVH5MBi9DqcDOlCK3+tyfHATt3POHpWEzmWA0KWMabZLWVPWS1JfuMKwbfnGdp/A==",
+  "dgSpecHash": "G2kbIfFl5cVyQAEhaMIa4U0I4aqeze42VDH2NaiuUE2wylYEnDzDtwN/9JGnkwt4SfHNTcxjosdkbTU0RG45+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RebusRabbitMq\\RebusRabbitMq.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\RebusRabbitMq\\RebusRabbitMq.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

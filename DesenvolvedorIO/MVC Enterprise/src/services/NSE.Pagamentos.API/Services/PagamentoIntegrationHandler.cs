@@ -3,10 +3,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NetDevPack.Messaging;
 using NSE.Core.DomainObjects;
 using NSE.Core.Messages.Integration;
 using NSE.MessageBus;
 using NSE.Pagamentos.API.Models;
+using SexFriend.Core.DomainObjects;
+using SexFriend.Principal.MessageBus;
 
 namespace NSE.Pagamentos.API.Services
 {

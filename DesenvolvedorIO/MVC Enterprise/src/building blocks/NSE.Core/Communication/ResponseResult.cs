@@ -1,22 +1,22 @@
 ﻿using System.Collections.Generic;
 
-namespace NSE.Core.Communication
+namespace SexFriend.Core.Communication
 {
     public class ResponseResult
     {
         public ResponseResult()
         {
-            Errors = new ResponseErrorMessages();
+            Errors = new RespoSexFriendErrorMessages();
         }
 
         public string Title { get; set; }
         public int Status { get; set; }
-        public ResponseErrorMessages Errors { get; set; }
+        public RespoSexFriendErrorMessages Errors { get; set; }
     }
 
-    public class ResponseErrorMessages
+    public class RespoSexFriendErrorMessages
     {
-        public ResponseErrorMessages()
+        public RespoSexFriendErrorMessages()
         {
             Mensagens = new List<string>();
         }

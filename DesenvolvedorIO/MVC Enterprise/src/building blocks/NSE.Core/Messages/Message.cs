@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NSE.Core.Messages
+namespace SexFriend.Core.Messages
 {
     public abstract class Message
     {

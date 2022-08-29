@@ -1,7 +1,7 @@
 ﻿using System;
 using MediatR;
 
-namespace NSE.Core.Messages
+namespace SexFriend.Core.Messages
 {
     public class Event : Message, INotification
     {

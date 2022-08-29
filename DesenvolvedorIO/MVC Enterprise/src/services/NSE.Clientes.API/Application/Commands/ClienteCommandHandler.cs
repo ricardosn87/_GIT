@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using NSE.Clientes.API.Application.Events;
 using NSE.Clientes.API.Models;
 using NSE.Core.Messages;
+using SexFriend.Core.Messages;
 
 namespace NSE.Clientes.API.Application.Commands
 {

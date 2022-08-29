@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NSE.Core.Messages.Integration
+namespace SexFriend.Core.Messages.Integration
 {
     public class PedidoRealizadoIntegrationEvent : IntegrationEvent
     {

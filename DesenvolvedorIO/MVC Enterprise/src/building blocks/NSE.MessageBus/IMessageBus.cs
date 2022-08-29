@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using EasyNetQ;
-using NSE.Core.Messages.Integration;
+using SexFriend.Core.Messages.Integration;
 
-namespace NSE.MessageBus
+namespace SexFriend.Principal.MessageBus
 {
     public interface IMessageBus : IDisposable
     {
@@ -18,20 +18,20 @@ namespace NSE.MessageBus
 
         void SubscribeAsync<T>(string subscriptionId, Func<T, Task> onMessage) where T : class;
 
-        TResponse Request<TRequest, TResponse>(TRequest request)
+        TRespoSexFriend Request<TRequest, TRespoSexFriend>(TRequest request)
             where TRequest : IntegrationEvent
-            where TResponse : ResponseMessage;
+            where TRespoSexFriend : RespoSexFriendMessage;
 
-        Task<TResponse> RequestAsync<TRequest, TResponse>(TRequest request)
+        Task<TRespoSexFriend> RequestAsync<TRequest, TRespoSexFriend>(TRequest request)
             where TRequest : IntegrationEvent
-            where TResponse : ResponseMessage;
+            where TRespoSexFriend : RespoSexFriendMessage;
 
-        IDisposable Respond<TRequest, TResponse>(Func<TRequest, TResponse> responder)
+        IDisposable Respond<TRequest, TRespoSexFriend>(Func<TRequest, TRespoSexFriend> responder)
             where TRequest : IntegrationEvent
-            where TResponse : ResponseMessage;
+            where TRespoSexFriend : RespoSexFriendMessage;
 
-        IDisposable RespondAsync<TRequest, TResponse>(Func<TRequest, Task<TResponse>> responder)
+        IDisposable RespondAsync<TRequest, TRespoSexFriend>(Func<TRequest, Task<TRespoSexFriend>> responder)
             where TRequest : IntegrationEvent
-            where TResponse : ResponseMessage;
+            where TRespoSexFriend : RespoSexFriendMessage;
     }
 }

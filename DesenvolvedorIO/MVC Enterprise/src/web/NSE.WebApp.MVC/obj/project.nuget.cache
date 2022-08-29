@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2SMGIFn+WxB0RGCihxGlEZiISKxa30LNtKWpjp57jBWVDEAbIXWpxUP+4+O1/Q9vCXOak740UDyWVovP0SmmAg==",
+  "dgSpecHash": "C0hoNa3sOC3LYzNtPq+xt5fm2kNGT521QEwrPMC4/IZJU04mRcLsmjlnFBCHCYKGGD+oC54v8uwLkbNExlcCBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\grpc.core.api\\2.31.0\\grpc.core.api.2.31.0.nupkg.sha512",

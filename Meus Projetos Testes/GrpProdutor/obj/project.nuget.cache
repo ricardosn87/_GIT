@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g7m3UQTxJmOffi/vzcTNB4Os1mdlERcBRpegQxCNkhMl2aVphhCr1YXhz0t3ru2RMLPrVKWSUXf7+cdbpqVg1w==",
+  "dgSpecHash": "BQGnhldUt56x0okmsTk4lI4JAl2clnuuRAdIf4kdgTqdlLXGnvOhjR2lSxHVeprSccEYBwbuME6676mfbffWng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\GrpProdutor\\GrpcProdutor.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\GrpProdutor\\GrpcProdutor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\google.protobuf\\3.18.1\\google.protobuf.3.18.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\grpc.aspnetcore\\2.42.0\\grpc.aspnetcore.2.42.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace NSE.Core.Utils
+namespace SexFriend.Core.Utils
 {
     public static class StringUtils
     {

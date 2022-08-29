@@ -1,9 +1,9 @@
 ﻿using FluentValidation.Results;
-using NSE.Core.Messages;
+using SexFriend.Core.Messages;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace NSE.Core.Mediator
+namespace SexFriend.Core.Mediator
 {
     public class MediatorHandler : IMediatorHandler
     {

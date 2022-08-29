@@ -1,0 +1,68 @@
+<p>perfil-cadastro works!</p>
+<form [formGroup]="checkoutForm">
+
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>CPF</mat-label>
+            <input matInput formControlName="cpf" mask="000.000.000-99" value="">
+            <mat-error *ngIf="checkoutForm.invalid">CPF não pode ficar vazio.</mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Nome</mat-label>
+            <input matInput formControlName="nome" value="">
+            <mat-error *ngIf="checkoutForm.invalid">Nome não pode ficar vazio.</mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Ano Nascimento</mat-label>
+            <mat-select [(value)]="selectedYears" formControlName="dataNascimento" >
+                <mat-option *ngFor="let years of rangerYears" [value]="years">
+                    {{years}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" formControlName="email" value="">
+            <mat-error *ngIf="checkoutForm.invalid">Email não pode ficar vazio.</mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Estado</mat-label>
+            <mat-select [(value)]="selectedUF" formControlName="estado">
+                <mat-option *ngFor="let est of estados" [value]="est">
+                    {{est}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Cidade</mat-label>
+            <input matInput formControlName="cidade" formControlName="cidade" value="">
+            <mat-error *ngIf="checkoutForm.invalid">Cidade não pode ficar vazio.</mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Bairro</mat-label>
+            <input matInput formControlName="bairro" formControlName="bairro" value="">
+            <mat-error *ngIf="checkoutForm.invalid">Bairro não pode ficar vazio.</mat-error>
+        </mat-form-field>
+    </div>
+    <div>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Senha</mat-label>
+            <input matInput formControlName="senha" formControlName="senha" value="">
+            <mat-error *ngIf="checkoutForm.invalid">Senha não pode ficar vazio.</mat-error>
+        </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" (click)="savePerfil()" [disabled]="checkoutForm.invalid"  >Salvar</button>
+
+</form>

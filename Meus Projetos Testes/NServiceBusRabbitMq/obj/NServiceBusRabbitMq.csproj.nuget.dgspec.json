@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj": {}
+    "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj",
         "projectName": "NServiceBusRabbitMq",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -70,7 +70,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

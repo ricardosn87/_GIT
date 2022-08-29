@@ -11,6 +11,7 @@ using NSE.Pedidos.API.Application.Events;
 using NSE.Pedidos.Domain;
 using NSE.Pedidos.Domain.Pedidos;
 using NSE.Pedidos.Domain.Specs;
+using SexFriend.Core.Messages;
 
 namespace NSE.Pedidos.API.Application.Commands
 {

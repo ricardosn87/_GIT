@@ -135,3 +135,12 @@ C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\api gateways\NSE.
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.dll
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.pdb
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.genruntimeconfig.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.csproj.AssemblyReference.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.AssemblyInfoInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.AssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.csproj.CoreCompileInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.MvcApplicationPartsAssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.MvcApplicationPartsAssemblyInfo.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\api gateways\NSE.Bff.Compras\obj\Debug\netcoreapp3.1\NSE.Bff.Compras.pdb

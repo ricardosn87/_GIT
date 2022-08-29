@@ -1,0 +1,448 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Configuration\\SexFriend.Configuration.csproj": {}
+  },
+  "projects": {
+    "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Cadastro\\SexFriend.Cadastro.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Cadastro\\SexFriend.Cadastro.csproj",
+        "projectName": "SexFriend.Cadastro",
+        "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Cadastro\\SexFriend.Cadastro.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Cadastro\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj"
+              },
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj"
+              },
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Configuration\\SexFriend.Configuration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Configuration\\SexFriend.Configuration.csproj",
+        "projectName": "SexFriend.Configuration",
+        "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Configuration\\SexFriend.Configuration.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Configuration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsHandlers\\SexFriend.EventsHandlers.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsHandlers\\SexFriend.EventsHandlers.csproj"
+              },
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj"
+              },
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj",
+        "projectName": "SexFriend.Entities",
+        "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsHandlers\\SexFriend.EventsHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsHandlers\\SexFriend.EventsHandlers.csproj",
+        "projectName": "SexFriend.EventsHandlers",
+        "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsHandlers\\SexFriend.EventsHandlers.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Cadastro\\SexFriend.Cadastro.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Cadastro\\SexFriend.Cadastro.csproj"
+              },
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj"
+              },
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj"
+              },
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj",
+        "projectName": "SexFriend.EventsInfra",
+        "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj",
+        "projectName": "SexFriend.EventsModels",
+        "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\SexFriend.EventsModels.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj": {
+                "projectPath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.EventsInfra\\SexFriend.EventsInfra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QLWMIWbUDOxSKE9Z2a5/tYKJrEWgYxgRpxOGFJnkUohsKM+SrVUnxItlewh2ctaKIvNpG46HNDEwjeFEg1pHyQ==",
+  "success": true,
+  "projectFilePath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Entities\\SexFriend.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

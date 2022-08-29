@@ -11,3 +11,10 @@ C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedi
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.CopyComplete
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.dll
 C:\Users\ricar\source\repos\DesenvovledorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.pdb
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.AssemblyReference.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.AssemblyInfoInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.AssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.CoreCompileInputs.cache
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.dll
+C:\_GIT\DesenvolvedorIO\MVC Enterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.pdb

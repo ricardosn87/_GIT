@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uflKpIYZGbvJGO5wmPGdOXIBPr9nr10NB1tennEaYvAq+0e+Ld+VzZ2DR7jAe1b1hP1SUC+1rYeyPhgtWzLklg==",
+  "dgSpecHash": "oklzdWr4k7pVG0OTV5Sw7qvKjWhUb9Jk1+77O2RsY2h/WsfeubtqQY5XAFMPr/pp1TGvJSUYbal7IjCHGTSmlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RabbitMqBus\\RabbitMqBusCliente.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\RabbitMqBus\\RabbitMqBusCliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\jetbrains.annotations\\2021.2.0\\jetbrains.annotations.2021.2.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

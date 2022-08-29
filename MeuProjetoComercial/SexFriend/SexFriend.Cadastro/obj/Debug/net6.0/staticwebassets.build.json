@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "74PL2/rNXiZx6xbhBC4hUbxnbRKhEgC8XRQ2sXy5dQM=",
+  "Source": "SexFriend.Cadastro",
+  "BasePath": "_content/SexFriend.Cadastro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.System\\SexFriend.System.csproj",
+      "Version": 1,
+      "Source": "SexFriend.System",
+      "GetPublishAssetsTargets": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectStaticWebAssetsV2",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

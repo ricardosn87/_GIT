@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace NSE.Core.Validation
+namespace SexFriend.Core.Validation
 {
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = true)]
     public class CartaoExpiracaoAttribute : ValidationAttribute

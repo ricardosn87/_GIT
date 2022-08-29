@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OO4/R/eSlfILV5cSuvenwHD8ofcwoD7sbkL0QkE2sOO4SG7+LX6yYNoys0kGnjatRc8iSKTjG9hOsY4ZvT8/Vw==",
+  "dgSpecHash": "5KPDl47/srk9iMT0NWKDhzvCSC+LpRKu8PSqM/7TiBs55yWVzZIyhA5gB0361E139q3QqQi7Odt8l9w1DvLjgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\RabbitMqBusClienteCadastrado\\RabbitMqBusClienteCadastrado.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\RabbitMqBusClienteCadastrado\\RabbitMqBusClienteCadastrado.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

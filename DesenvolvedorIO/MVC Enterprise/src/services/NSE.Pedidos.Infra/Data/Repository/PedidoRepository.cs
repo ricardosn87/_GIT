@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NSE.Core.Data;
 using NSE.Pedidos.Domain.Pedidos;
+using SexFriend.Core.Data;
 
 namespace NSE.Pedidos.Infra.Data.Repository
 {
-    public class PedidoRepository : IPedidoRepository
+    public class PedidoRepository : Domain.Pedidos.IPedidoRepository
     {
         private readonly PedidosContext _context;
 

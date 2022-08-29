@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\WebApplication3\\EasyNetQBus.csproj": {}
+    "C:\\_GIT\\Meus Projetos Testes\\WebApplication3\\EasyNetQBus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\WebApplication3\\EasyNetQBus.csproj": {
+    "C:\\_GIT\\Meus Projetos Testes\\WebApplication3\\EasyNetQBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\WebApplication3\\EasyNetQBus.csproj",
+        "projectUniqueName": "C:\\_GIT\\Meus Projetos Testes\\WebApplication3\\EasyNetQBus.csproj",
         "projectName": "EasyNetQBus",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\WebApplication3\\EasyNetQBus.csproj",
+        "projectPath": "C:\\_GIT\\Meus Projetos Testes\\WebApplication3\\EasyNetQBus.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\WebApplication3\\obj\\",
+        "outputPath": "C:\\_GIT\\Meus Projetos Testes\\WebApplication3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -66,7 +66,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -78,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

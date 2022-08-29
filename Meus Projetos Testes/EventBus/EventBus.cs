@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
@@ -52,6 +53,7 @@ namespace EventBus.Infrastructure
             Model.BasicPublish(exchangeName, string.Empty, body: bytesMessage);
         }
 
+        
         public void Subscribe<TH, TE>(string exchangeName, string subscriberName)
             where TH : IIntegrationEventHandler<TE>
             where TE : IIntegrationEvent

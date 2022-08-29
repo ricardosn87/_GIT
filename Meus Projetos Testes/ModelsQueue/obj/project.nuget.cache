@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dmX3pjVzzgVoxOayB5SAsakcKzUAtqGgX7bZadrFzoeEzNmnrrc8z/4rpduGrz2LkB4cQQrifWPBUwwQuCEIDg==",
+  "dgSpecHash": "cBplHqUXhIZA8a40NQ2FTbfwSMrdZ6SwQ6tYmoyCEpTJVX4o5ig0IzCEV18TsKs0EGwN9NIFARHKJE1l+KMP6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\ModelsQueue\\ModelsEvents.csproj",
+  "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\ModelsQueue\\ModelsEvents.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

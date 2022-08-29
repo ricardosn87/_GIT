@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zerIza5pcFs7dDVf+RAOK/CakcpHvX+uUZZsj0IN9kKfkyxue9iLb1j5Pm/WX8vzL8YseXdzTuSnkB6xkBOp9w==",
+  "dgSpecHash": "pR1D9KfhuXQ8HvdHREb0mTt7GlKCC9fICdKLaKrLEAEg7l5EXVdNM+znggAsL+M9julIPOb2/qLS6HH0N3LHUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\MVC Enterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\MVC Enterprise\\src\\building blocks\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",

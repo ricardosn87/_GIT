@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace NSE.Core.Utils
+namespace SexFriend.Core.Utils
 {
     public static class ConfigurationExtensions
     {

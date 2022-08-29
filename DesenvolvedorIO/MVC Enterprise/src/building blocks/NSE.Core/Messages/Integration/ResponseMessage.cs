@@ -1,12 +1,12 @@
 ﻿using FluentValidation.Results;
 
-namespace NSE.Core.Messages.Integration
+namespace SexFriend.Core.Messages.Integration
 {
-    public class ResponseMessage : Message
+    public class RespoSexFriendMessage : Message
     {
         public ValidationResult ValidationResult { get; set; }
 
-        public ResponseMessage(ValidationResult validationResult)
+        public RespoSexFriendMessage(ValidationResult validationResult)
         {
             ValidationResult = validationResult;
         }
