@@ -97,3 +97,4 @@ C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Cadastro\obj\Debug\netcoreapp3.1
 C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Cadastro\obj\Debug\netcoreapp3.1\SexFriend.Cadastro.dll
 C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Cadastro\obj\Debug\netcoreapp3.1\SexFriend.Cadastro.pdb
 C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Cadastro\obj\Debug\netcoreapp3.1\SexFriend.Cadastro.genruntimeconfig.cache
+C:\_GIT\MeuProjetoComercial\SexFriend\SexFriend.Cadastro\bin\Debug\netcoreapp3.1\FluentValidation.Extensions.Br.dll

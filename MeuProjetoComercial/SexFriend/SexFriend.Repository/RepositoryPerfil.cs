@@ -1,7 +1,8 @@
-﻿using SexFriend.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using SexFriend.Data;
 using SexFriend.Entities;
 using SexFriend.Repository.Interfaces;
-
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace SexFriend.Repository
@@ -22,10 +23,23 @@ namespace SexFriend.Repository
                 _context.Add(perfilEntity);
                 await _context.SaveChangesAsync();
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
                 throw;
             }         
+        }
+
+        public async Task<string> GetCpf(string cpf)
+        {
+            try
+            {
+                var r = await _context.Perfil.FirstOrDefaultAsync(w => w.Cpf == cpf);
+                return r.Cpf;
+            }
+            catch (System.Exception)
+            {
+                throw;
+            }
         }
     }
 }

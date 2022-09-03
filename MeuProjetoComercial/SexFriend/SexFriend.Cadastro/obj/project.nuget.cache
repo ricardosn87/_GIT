@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qOr+5wGcGuag3nDOKU3A9iQr9rIn/3jz6f+eEHAVvxLng+hZY/K8oFRb/6qDU0sQW4e7vKi3YKHEbfR3ansKvA==",
+  "dgSpecHash": "tjwgaoe7q1dNg8mmy50p3/22PZVLlTJglzZtMP/x8r1xcpZWZwilQwPltuVVirfRedjpZX5xb1OzP9qZQJ8h5A==",
   "success": true,
   "projectFilePath": "C:\\_GIT\\MeuProjetoComercial\\SexFriend\\SexFriend.Cadastro\\SexFriend.Cadastro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\easynetq\\7.0.0\\easynetq.7.0.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\ricar\\.nuget\\packages\\extensions.fluentvalidation.br\\1.0.2\\extensions.fluentvalidation.br.1.0.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

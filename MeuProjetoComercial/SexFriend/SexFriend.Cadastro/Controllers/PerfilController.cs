@@ -13,28 +13,49 @@ using System.Threading.Tasks;
 
 namespace SexFriend.Cadastro.Controllers
 {
-    [Route("api/cadastro")]
+    [Route("api/perfil")]
     [ApiController]
-    public class CadastroController : MainController
+    public class PerfilController : MainController
     {
 
         private readonly IEventBus _eventBus;
         private readonly NotificationContext _notificationContext;
         private readonly IMediator _mediator;
 
-        public CadastroController(IEventBus eventBus, NotificationContext notificationContext, IMediator mediator)
+        public PerfilController(IEventBus eventBus, NotificationContext notificationContext, IMediator mediator)
         {
             _eventBus = eventBus;
             _notificationContext = notificationContext;
             _mediator = mediator;
         }
 
+        [HttpGet("cpf")]
+        public async Task<IActionResult> GetCpf(string cpf)
+        {
+            try
+            {
+                var getCpfCommand = new GetCpfCommand() { Cpf = cpf };
+
+                if (!getCpfCommand.EhValido())
+                {
+                    return CustomResponse(getCpfCommand.ValidationResult);
+                }
+
+                var response = await _mediator.Send(getCpfCommand);
+
+                return CustomResponse(response);
+            }
+            catch (global::System.Exception)
+            {
+                throw;
+            }
+        }
+
         [HttpPost]
         public async Task<IActionResult> PostAsync(CadastroViewModel cadastroViewModel)
         {
             try
-            {
-                
+            {             
                 var cadastraPerfilCommand = new CadastraPerfilCommand()
                 {
                     Bairro = cadastroViewModel.Bairro,
@@ -55,11 +76,11 @@ namespace SexFriend.Cadastro.Controllers
 
                 var response = await _mediator.Send(cadastraPerfilCommand);
 
-                return StatusCode(201);
+                return CustomResponse(response);
             }
-            catch (global::System.Exception)
+            catch (global::System.Exception ex)
             {
-                return StatusCode(500);
+                return CustomResponse(ex.Message);
             }
         }
     }

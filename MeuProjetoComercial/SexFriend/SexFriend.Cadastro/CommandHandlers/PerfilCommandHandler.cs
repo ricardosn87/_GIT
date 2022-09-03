@@ -13,11 +13,12 @@ using System.Threading.Tasks;
 namespace SexFriend.Cadastro.CommandHandlers
 {
 
-    public class CadastraCommandHandler : Command,
-        IRequestHandler<CadastraPerfilCommand, ValidationResult>
+    public class PerfilCommandHandler : Command,
+        IRequestHandler<CadastraPerfilCommand, ValidationResult>,
+        IRequestHandler<GetCpfCommand, string>
     {
         private readonly IRepositoryPerfil _repository;
-        public CadastraCommandHandler(IMediator mediator, IRepositoryPerfil repository)
+        public PerfilCommandHandler(IMediator mediator, IRepositoryPerfil repository)
         {
             this._repository = repository;
         }
@@ -46,6 +47,20 @@ namespace SexFriend.Cadastro.CommandHandlers
             catch (global::System.Exception)
             {
 
+                throw;
+            }
+        }
+
+        public async Task<string> Handle(GetCpfCommand request, CancellationToken cancellationToken)
+        {
+            try
+            {
+                var r = await _repository.GetCpf(request.Cpf);
+
+                return r;
+            }
+            catch (global::System.Exception)
+            {
                 throw;
             }
         }

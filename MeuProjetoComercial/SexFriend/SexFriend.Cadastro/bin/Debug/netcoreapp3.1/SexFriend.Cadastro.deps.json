@@ -32,6 +32,7 @@
       "SexFriend.Cadastro/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
+          "Extensions.FluentValidation.Br": "1.0.2",
           "MediatR": "10.0.1",
           "MediatR.Extensions.FluentValidation.AspNetCore": "3.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.1.0",
@@ -354,6 +355,20 @@
         "compile": {
           "lib/netstandard2.1/EntityFramework.SqlServer.dll": {},
           "lib/netstandard2.1/EntityFramework.dll": {}
+        }
+      },
+      "Extensions.FluentValidation.Br/1.0.2": {
+        "dependencies": {
+          "FluentValidation": "11.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {
+            "assemblyVersion": "1.0.0.2",
+            "fileVersion": "1.0.0.2"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
         }
       },
       "FluentValidation/11.2.0": {
@@ -3309,6 +3324,13 @@
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "Extensions.FluentValidation.Br/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZVoXpIFkUhufHoO3/MkdIMZU0+8Mjy1K9TNd0zroT/J92SqU8V/ryZqVn4Mdbeq2aAC5yrtAhowg8Vd+FjSCSw==",
+      "path": "extensions.fluentvalidation.br/1.0.2",
+      "hashPath": "extensions.fluentvalidation.br.1.0.2.nupkg.sha512"
     },
     "FluentValidation/11.2.0": {
       "type": "package",

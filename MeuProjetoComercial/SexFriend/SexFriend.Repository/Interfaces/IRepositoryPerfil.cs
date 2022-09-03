@@ -9,5 +9,7 @@ namespace SexFriend.Repository.Interfaces
     public interface IRepositoryPerfil
     {
         Task Save(PerfilEntity perfilEntity);
+
+        Task<string> GetCpf(string cpf);
     }
 }
