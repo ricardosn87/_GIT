@@ -1,29 +1,26 @@
-import { Perfil } from '../Models/perfil.model';
+import { tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-import { Observable, Subscription, tap } from 'rxjs';
-import * as moment from 'moment';
+import { Perfil } from '../Models/perfil.model';
+import { Injectable, Inject } from '@angular/core';
+import * as moment from 'moment'
 
 @Injectable({
   providedIn: 'root'
 })
 export class CadastroServiceService {
 
-  url = 'https://localhost:7167/api/cadastro'
+  url = 'https://localhost:7167/api/perfil'
 
   constructor(
     private http: HttpClient
-    ) { }
+  ) { }
+
+  cpfBlur(cpf: string) {
+    return this.http.get(`${this.url}/cpf/${cpf}`)
+  }
 
   save(p: Perfil) {
     return this.http.post(`${this.url}`, p)
-      .pipe(
-        tap( 
-          {
-            next: (data) => console.log(data),
-            error: (error) => console.log(error)
-          }
-        ))
   }
 
   getStatesFromBrazil(): string[] {

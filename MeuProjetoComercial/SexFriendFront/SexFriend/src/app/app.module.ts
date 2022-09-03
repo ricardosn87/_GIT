@@ -1,35 +1,26 @@
-import { MaterialExampleModule } from './material.modulo';
-import { ReactiveFormsModule } from '@angular/forms';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'; 
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PerfilCadastroComponent } from './perfil-cadastro/perfil-cadastro.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule } from '@angular/core';
 
-import { NgxMaskModule, IConfig } from 'ngx-mask'
-//import { ToastrModule } from 'ngx-toastr';
-
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PerfilCadastroComponent,
+    LoginComponent
 
   ],
   imports: [
-    BrowserModule,
+    AppModule,
     AppRoutingModule,
-    MaterialExampleModule,
     ReactiveFormsModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
-    FormsModule,
-    NgxMaskModule.forRoot(),
-    //ToastrModule.forRoot()
+    HttpClientModule
+    
 
   ],
   providers: [],
