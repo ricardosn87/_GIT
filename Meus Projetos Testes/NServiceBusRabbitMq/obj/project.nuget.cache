@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "68UpYC3AZ8gk1qG4H0uTYQ43YIpxeEZBUrmYsvj121Eok0OW1WYbGGcP4NyNEAPucveQHFdPl7msV2q3VqcbhQ==",
+  "dgSpecHash": "fabazs2v3jW76QwSs7YPT2osfVb0YP+KMVpDv6R9ccjwOYQJICxrpJFBQJngpzgez9ktStH2UtbvxvAcXGywwQ==",
   "success": true,
   "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\NServiceBusRabbitMq.csproj",
   "expectedPackageFiles": [

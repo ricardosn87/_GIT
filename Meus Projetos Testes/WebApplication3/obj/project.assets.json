@@ -9,14 +9,10 @@
           "RabbitMQ.Client": "[6.2.1, 6.3.0)"
         },
         "compile": {
-          "lib/netstandard2.0/EasyNetQ.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/EasyNetQ.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/EasyNetQ.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/EasyNetQ.dll": {}
         }
       },
       "EasyNetQ.DI.SimpleInjector/5.1.1": {
@@ -26,14 +22,10 @@
           "SimpleInjector": "4.6.2"
         },
         "compile": {
-          "lib/netstandard2.0/EasyNetQ.DI.SimpleInjector.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/EasyNetQ.DI.SimpleInjector.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/EasyNetQ.DI.SimpleInjector.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/EasyNetQ.DI.SimpleInjector.dll": {}
         }
       },
       "MediatR/10.0.0": {
@@ -42,27 +34,19 @@
           "MediatR.Contracts": "1.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/MediatR.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/MediatR.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MediatR.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/MediatR.dll": {}
         }
       },
       "MediatR.Contracts/1.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/MediatR.Contracts.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/MediatR.Contracts.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/MediatR.Contracts.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/MediatR.Contracts.dll": {}
         }
       },
       "MediatR.Extensions.Microsoft.DependencyInjection/10.0.0": {
@@ -81,14 +65,10 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -115,14 +95,10 @@
       "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "RabbitMQ.Client/6.2.1": {
@@ -132,14 +108,10 @@
           "System.Threading.Channels": "4.7.1"
         },
         "compile": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
         }
       },
       "SimpleInjector/4.6.2": {
@@ -148,14 +120,10 @@
           "System.ComponentModel": "4.0.1"
         },
         "compile": {
-          "lib/netstandard2.0/SimpleInjector.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/SimpleInjector.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/SimpleInjector.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/SimpleInjector.dll": {}
         }
       },
       "System.ComponentModel/4.0.1": {
@@ -164,9 +132,7 @@
           "System.Runtime": "4.1.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.ComponentModel.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.ComponentModel.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.ComponentModel.dll": {}
@@ -188,22 +154,16 @@
           "Microsoft.NETCore.Targets": "1.0.1"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
       "System.Threading.Channels/4.7.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {
-            "related": ".xml"
-          }
+          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
       }
     }
@@ -680,8 +640,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -693,7 +652,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.113\\RuntimeIdentifierGraph.json"
       }
     }
   }
