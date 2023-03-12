@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FteQUlSDqAKRo1rg9dj4oVzsVJONd+konZBqgF9u0QhNGeodzH13gTqx8m3xkI8dFBpCoFffLw0NRmc/bbA5Zw==",
+  "dgSpecHash": "VY/awLt8feicbjRKwVWM2vZ8Bz+IXsUj61N1plYQB/iYhvifNiJCL22DQeSztYMSjSIcIdOdUAlGUYhZoqcj3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Teste Automatizado\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Teste Automatizado\\01 - Testes de Unidade\\Features.Tests\\Features.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\bogus\\28.0.3\\bogus.28.0.3.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

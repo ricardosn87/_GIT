@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EYaEvv/ymH5BbPTaAy7BQojD5jz6kVgnswH4oYPMgfm6xhM6YtzBisFj3ia9QgyeQ4FiRlsLtvtdJc8MlfSHOA==",
+  "dgSpecHash": "jz3axHqiTvKY9753eGeWZXphVvL7FrF7Nu8CuLYEkZT+sWCXkm3z3IgkYxyqjPufq0Z0CX5W1CyAmKCzIGAyXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Teste Automatizado\\01 - Testes de Unidade\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Teste Automatizado\\01 - Testes de Unidade\\Demo\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

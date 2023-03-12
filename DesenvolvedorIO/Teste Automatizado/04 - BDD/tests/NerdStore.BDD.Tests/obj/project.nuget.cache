@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e7RE2vAsoQkfXD0cLESR/hVBYjEs6y6/EkKqWazNEC/I9imrV4stdmMPHh4s8scRwe6Rx+qKUPADilH+ihPaIw==",
+  "dgSpecHash": "48eGkT6oDmrreS8bxXjDFFk94zXVkV+bZYulqeX5C/xNuDP/CpboglRJeTeiw8ddUrKAX8EpSyRvSDrgCHob5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Teste Automatizado\\04 - BDD\\tests\\NerdStore.BDD.Tests\\NerdStore.BDD.Tests.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Teste Automatizado\\04 - BDD\\tests\\NerdStore.BDD.Tests\\NerdStore.BDD.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\bogus\\28.3.2\\bogus.28.3.2.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sse0gM/esxEZOFRG9k1CVIIFI+svXabB0NOMkxcHOhHfUPtDA/uSMerBc0DxpPBbbLX5exYqymxAE/t0VPAf9Q==",
+  "dgSpecHash": "dJ3kCNmxVRwaygrMRTdiEFDisMSGRwhMG4apV0P3ZkY69Q80UmsyRx3zPXQHcU5rMcMloK2tnqQ86caMK/t9sA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Teste Automatizado\\03 - Testes de Integracao\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Teste Automatizado\\03 - Testes de Integracao\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

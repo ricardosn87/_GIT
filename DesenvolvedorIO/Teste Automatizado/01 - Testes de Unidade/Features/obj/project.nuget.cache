@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LDMFsYaxyIp3i5/VGhEfUJz44LFcbuP/WxaKuUrmv2L1vyGYxUrudF/TZ5Za0EkoexjlzzLpgKGzvpZ5USLu4A==",
+  "dgSpecHash": "ScUS/lMyGNXJNtduo0QcJ8WbwwygfgRZjpGqiRniQLs8d29LyNJoGxOnJDQMLEEB74/N8JsdAaPB1kFNuHNo7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Teste Automatizado\\01 - Testes de Unidade\\Features\\Features.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Teste Automatizado\\01 - Testes de Unidade\\Features\\Features.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
