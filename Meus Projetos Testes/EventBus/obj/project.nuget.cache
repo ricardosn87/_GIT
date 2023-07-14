@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YVLvIpPdEue1lchSUeTJTKw/S8z5p04AytHFYGpQiP5qT5WJlyzogmCNSj8y7c0u+9bBfR/LG4qHxJG9Xfx4Lw==",
+  "dgSpecHash": "y3pwZE/A4y81k+ezWHxrpmBDiay0ZMBO06u6KvafTafPqFI3BXU3eIMmMjXJRw0plnuxLV/U16xpjO0pt+Se6g==",
   "success": true,
   "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\EventBus\\EventBus.Infrastructure.csproj",
   "expectedPackageFiles": [

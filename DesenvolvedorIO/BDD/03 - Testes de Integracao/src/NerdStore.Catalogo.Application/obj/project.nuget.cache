@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hRqli8UghXDG3GTBsAal5j1Pv/j9yCxFEUlkMp9woaaphb7y71jDIISnxvCa860LSfggJYSH4eED+X4v0uRZlg==",
+  "dgSpecHash": "4rhxbvFrKh+qmV5XMfuZm8cPeyyP/pESjvZaAzXOmnGdKp00BBmC98yv8dl7m0OPPKHAakcjxM0/9E86V7kBhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",

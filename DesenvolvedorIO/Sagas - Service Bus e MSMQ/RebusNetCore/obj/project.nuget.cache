@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c14FGmg6puGMiY7pMOajjdotSGqHCkwYjUnJns9XdUlojMiNG3F7A3SEqoRm1jlCKXSvQl6HEnH32gyvQHzXWA==",
+  "dgSpecHash": "VFN2m0vdvM2dkQUNFw9VCc0d6DF1H4DeNMNcS1xJNLZE+aJLI/E63WKvC6t16CZg+Tvc/R6e2gesi7tp0Ll8lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\RebusNetCore.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\RebusNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

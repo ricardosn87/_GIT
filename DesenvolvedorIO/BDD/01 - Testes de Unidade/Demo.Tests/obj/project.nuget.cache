@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OrjbpyjALiW9SiIGEy4QTwrUaevaKPxSk9ZctTHhRL5/BX4ObOfdiXfC2AVL+MRHZOntnb10u7ljDZL7fCZ5hg==",
+  "dgSpecHash": "hf5/31BV7wmckps15zK3WxKWt9e7Vs5w19Ya/qYaBK4MvpMP9Zk7cbn1BPKylpVrWBalNn/0ZazwZ+phvIZynw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\01 - Testes de Unidade\\Demo.Tests\\Demo.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.codecoverage\\16.0.1\\microsoft.codecoverage.16.0.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

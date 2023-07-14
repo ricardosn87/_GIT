@@ -12822,22 +12822,25 @@
   },
   "packageFolders": {
     "C:\\Users\\ricar\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\RebusNetCore.csproj",
+      "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\RebusNetCore.csproj",
       "projectName": "RebusNetCore",
-      "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\RebusNetCore.csproj",
+      "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\RebusNetCore.csproj",
       "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\obj\\",
+      "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\RebusNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12851,14 +12854,14 @@
         "netcoreapp2.2": {
           "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\Core\\Core.csproj"
+            "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\Core\\Core.csproj": {
+              "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\Core\\Core.csproj"
             },
-            "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\Pagamento\\Pagamento.csproj": {
-              "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\Pagamento\\Pagamento.csproj"
+            "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\Pagamento\\Pagamento.csproj": {
+              "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\Pagamento\\Pagamento.csproj"
             },
-            "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\Pedido\\Pedido.csproj": {
-              "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Sagas - Service Bus e MSMQ\\Pedido\\Pedido.csproj"
+            "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\Pedido\\Pedido.csproj": {
+              "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Sagas - Service Bus e MSMQ\\Pedido\\Pedido.csproj"
             }
           }
         }
@@ -12913,7 +12916,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.118\\RuntimeIdentifierGraph.json"
       }
     }
   }

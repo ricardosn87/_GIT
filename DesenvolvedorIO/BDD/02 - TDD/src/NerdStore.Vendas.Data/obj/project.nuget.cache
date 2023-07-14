@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ODVmA0vZeTAIRZ2489d36AJiGlfS+JbcLTtvSZoapQG6ySA1MKszl1fRfh1KDMg/uD0zS+6YJyNRB0zijb8SA==",
+  "dgSpecHash": "Dp90RxKPX6V+/p8UfhpGlGmaHQhw3YPWCW0fyf7XTKZkq6bE2qLnqD3ED2YROhRyGcU4o2e8DvdTZzQRq4rf2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidator\\2.0.4\\fluentvalidator.2.0.4.nupkg.sha512",

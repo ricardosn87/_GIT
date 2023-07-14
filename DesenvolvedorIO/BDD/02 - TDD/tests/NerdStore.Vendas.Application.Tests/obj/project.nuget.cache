@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2SfDsRQNShGtmcQ93qLFwjWDGjPMsZ/YBnLTohAZLC6ihd6Y/R8CuUyzRS40Oz287jHMS0Eh3CI+YAl+MVPgGg==",
+  "dgSpecHash": "nPhKxt65XSOfSda51XfSUNHF9W8+ziXTkLG5BJACD4rjlqrSus4SxQ/kNfpf5E9MftbmoUGxEb8SpEex75l9Kw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\02 - TDD\\tests\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\02 - TDD\\tests\\NerdStore.Vendas.Application.Tests\\NerdStore.Vendas.Application.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",

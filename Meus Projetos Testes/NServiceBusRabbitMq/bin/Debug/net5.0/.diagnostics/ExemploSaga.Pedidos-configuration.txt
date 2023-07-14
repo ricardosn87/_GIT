@@ -21,1219 +21,1219 @@
     "ErrorsThrownDuringScanning": false,
     "SkippedFiles": [
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NHibernate.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NHibernate.dll",
         "SkipReason": "File was explicitly excluded from scanning."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Configuration.ConfigurationManager.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Configuration.ConfigurationManager.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Data.SqlClient.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Data.SqlClient.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Security.Cryptography.ProtectedData.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Security.Cryptography.ProtectedData.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NServiceBusRabbitMq.exe",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NServiceBusRabbitMq.exe",
         "SkipReason": "File is not a .NET assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NHibernate.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NHibernate.dll",
         "SkipReason": "File was explicitly excluded from scanning."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\Microsoft.VisualBasic.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\Microsoft.VisualBasic.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.UserSecrets.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.UserSecrets.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Hosting.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Hosting.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Linq.Expressions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Linq.Expressions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.Ini.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.Ini.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Configuration.ConfigurationManager.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\System.Configuration.ConfigurationManager.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.KeyPerFile.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.KeyPerFile.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.Binder.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.Binder.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.Compression.ZipFile.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.Compression.ZipFile.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Ping.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Ping.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Authentication.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Authentication.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.DataProtection.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.DataProtection.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.Configuration.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.Configuration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Hosting.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Hosting.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.FileVersionInfo.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.FileVersionInfo.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Options.DataAnnotations.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Options.DataAnnotations.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.UnmanagedMemoryStream.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.UnmanagedMemoryStream.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Principal.Windows.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Principal.Windows.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.Windows.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.Windows.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.Security.Cryptography.Xml.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.Security.Cryptography.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\runtimes\\win\\lib\\netcoreapp2.1\\System.Data.SqlClient.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\runtimes\\win\\lib\\netcoreapp2.1\\System.Data.SqlClient.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\runtimes\\win\\lib\\netstandard2.0\\System.Security.Cryptography.ProtectedData.dll",
+        "FilePath": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\runtimes\\win\\lib\\netstandard2.0\\System.Security.Cryptography.ProtectedData.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.Tools.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.Tools.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Caching.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Caching.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Caching.Memory.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Caching.Memory.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Options.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Options.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Web.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Web.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.FileProviders.Composite.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.FileProviders.Composite.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.FileProviders.Physical.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.FileProviders.Physical.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.CommandLine.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.CommandLine.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.EnvironmentVariables.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.FileExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\Microsoft.VisualBasic.Core.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\Microsoft.VisualBasic.Core.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.Diagnostics.EventLog.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.Diagnostics.EventLog.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Configuration.Xml.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Configuration.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.DispatchProxy.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.DispatchProxy.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.DependencyInjection.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.DependencyInjection.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.FileProviders.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Serialization.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Serialization.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Http.Connections.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Http.Connections.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.FileSystemGlobbing.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.FileSystemGlobbing.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Http.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Http.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.Console.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.Console.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.Debug.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.Debug.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Antiforgery.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Antiforgery.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Authentication.OAuth.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Authentication.OAuth.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.Security.Permissions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.Security.Permissions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Diagnostics.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.EventLog.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.EventLog.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.EventSource.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.EventSource.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.Diagnostics.EventLog.Messages.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.Diagnostics.EventLog.Messages.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Win32.SystemEvents.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Win32.SystemEvents.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Logging.TraceSource.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Logging.TraceSource.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Claims.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Claims.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Options.ConfigurationExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.Security.Cryptography.Pkcs.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.Security.Cryptography.Pkcs.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.Drawing.Common.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.Drawing.Common.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\System.IO.Pipelines.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\System.IO.Pipelines.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Authentication.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Authentication.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.WebHeaderCollection.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.WebHeaderCollection.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Authentication.Cookies.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Authentication.Cookies.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.ResponseCompression.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.ResponseCompression.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Authentication.Core.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Authentication.Core.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ComponentModel.DataAnnotations.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ComponentModel.DataAnnotations.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Authorization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Authorization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Authorization.Policy.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Authorization.Policy.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Drawing.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Drawing.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Components.Authorization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Components.Authorization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Components.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Components.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Components.Forms.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Components.Forms.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Components.Server.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Components.Server.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.Compression.FileSystem.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.Compression.FileSystem.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Components.Web.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Components.Web.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Connections.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.CookiePolicy.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.CookiePolicy.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Cors.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Cors.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Cryptography.Internal.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Cryptography.Internal.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.Pipes.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.Pipes.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.DataProtection.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.ThreadPool.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.ThreadPool.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.DataProtection.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.DataProtection.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Diagnostics.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Diagnostics.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Private.DataContractSerialization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Private.DataContractSerialization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.HostFiltering.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.HostFiltering.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Hosting.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Hosting.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Hosting.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Hosting.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Html.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Html.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Http.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Http.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Http.Connections.Common.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Http.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Http.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Http.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Http.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Http.Features.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Http.Features.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.HttpOverrides.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.HttpOverrides.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.HttpsPolicy.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.HttpsPolicy.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Identity.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Identity.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Localization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Localization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.WebClient.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.WebClient.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Localization.Routing.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Localization.Routing.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Metadata.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Metadata.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.ApiExplorer.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.Core.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.Core.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.Cors.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.Cors.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.DataAnnotations.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.DataAnnotations.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.Formatters.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.Localization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.Localization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Tasks.Parallel.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Tasks.Parallel.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.Razor.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.Razor.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Requests.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Requests.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.RazorPages.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.RazorPages.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Resources.Writer.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Resources.Writer.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.TagHelpers.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.TagHelpers.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Mvc.ViewFeatures.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Mvc.ViewFeatures.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Private.Uri.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Private.Uri.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Razor.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Razor.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.WebSockets.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.WebSockets.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Razor.Runtime.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Razor.Runtime.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.NetworkInformation.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.NetworkInformation.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.ResponseCaching.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.ResponseCaching.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.FileSystem.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.FileSystem.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Formats.Asn1.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Formats.Asn1.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Rewrite.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Rewrite.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Routing.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Routing.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Routing.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Routing.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Server.HttpSys.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Server.HttpSys.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Server.IIS.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Server.IIS.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Server.IISIntegration.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Server.IISIntegration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.StackTrace.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.StackTrace.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Server.Kestrel.Core.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Server.Kestrel.Core.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Server.Kestrel.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Server.Kestrel.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.Session.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.Session.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.SignalR.Common.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.SignalR.Common.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Text.Encoding.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Text.Encoding.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.SignalR.Core.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.SignalR.Core.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.SignalR.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.SignalR.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.StaticFiles.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.StaticFiles.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.AspNetCore.WebUtilities.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.AspNetCore.WebUtilities.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Loader.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Loader.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Diagnostics.HealthChecks.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Memory.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Memory.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.FileProviders.Embedded.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.FileProviders.Embedded.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Identity.Core.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Identity.Core.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Identity.Stores.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Identity.Stores.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.TypeExtensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.TypeExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Localization.Abstractions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Localization.Abstractions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.Localization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.Localization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.ObjectPool.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.ObjectPool.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Extensions.WebEncoders.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Extensions.WebEncoders.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.JSInterop.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.JSInterop.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.13\\Microsoft.Net.Http.Headers.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App\\5.0.17\\Microsoft.Net.Http.Headers.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\Microsoft.CSharp.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\Microsoft.CSharp.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ServiceModel.Web.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ServiceModel.Web.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\Microsoft.Win32.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\Microsoft.Win32.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\Microsoft.Win32.Registry.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\Microsoft.Win32.Registry.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.AppContext.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.AppContext.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Buffers.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Buffers.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Collections.Concurrent.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Collections.Concurrent.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Collections.Immutable.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Collections.Immutable.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Globalization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Globalization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Collections.NonGeneric.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Collections.NonGeneric.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Collections.Specialized.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Collections.Specialized.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Text.Encodings.Web.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Text.Encodings.Web.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Collections.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Collections.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Cryptography.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Cryptography.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ComponentModel.Annotations.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ComponentModel.Annotations.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ComponentModel.EventBasedAsync.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ComponentModel.EventBasedAsync.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ComponentModel.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ComponentModel.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Tasks.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Tasks.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ComponentModel.TypeConverter.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ComponentModel.TypeConverter.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Cryptography.OpenSsl.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Cryptography.OpenSsl.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ComponentModel.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ComponentModel.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Configuration.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Configuration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Security.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Security.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Console.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Console.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Core.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Core.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Data.Common.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Data.Common.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Data.DataSetExtensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Data.DataSetExtensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.NameResolution.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.NameResolution.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Data.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Data.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Text.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Text.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.Contracts.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.Contracts.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.Debug.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.Debug.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.DiagnosticSource.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.DiagnosticSource.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.Process.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.Process.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.TextWriterTraceListener.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.TextWriterTraceListener.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.TraceSource.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.TraceSource.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Diagnostics.Tracing.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Diagnostics.Tracing.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Transactions.Local.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Transactions.Local.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Numerics.Vectors.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Numerics.Vectors.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Drawing.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Drawing.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Windows.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Windows.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Dynamic.Runtime.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Dynamic.Runtime.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Globalization.Calendars.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Globalization.Calendars.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Globalization.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Globalization.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.Compression.Brotli.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.Compression.Brotli.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.Compression.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.Compression.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.FileSystem.AccessControl.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.FileSystem.AccessControl.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.FileSystem.DriveInfo.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.FileSystem.DriveInfo.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.FileSystem.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.FileSystem.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.FileSystem.Watcher.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.FileSystem.Watcher.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.IsolatedStorage.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.IsolatedStorage.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.Serialization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.Serialization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.MemoryMappedFiles.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.MemoryMappedFiles.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.IO.Pipes.AccessControl.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.IO.Pipes.AccessControl.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Linq.Parallel.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Linq.Parallel.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Linq.Queryable.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Linq.Queryable.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Linq.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Linq.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Http.Json.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Http.Json.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Http.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Http.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.WebSockets.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.WebSockets.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.HttpListener.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.HttpListener.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Mail.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Mail.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ValueTuple.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ValueTuple.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.ServicePoint.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.ServicePoint.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.Sockets.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.Sockets.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.WebProxy.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.WebProxy.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.WebSockets.Client.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.WebSockets.Client.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Net.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Net.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Numerics.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Numerics.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ObjectModel.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ObjectModel.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Private.Xml.Linq.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Private.Xml.Linq.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Private.Xml.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Private.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.XmlDocument.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.XmlDocument.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.Emit.ILGeneration.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.Emit.ILGeneration.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Text.Encoding.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Text.Encoding.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.Emit.Lightweight.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.Emit.Lightweight.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.Emit.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.Emit.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Reflection.Metadata.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Reflection.Metadata.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Resources.Reader.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Resources.Reader.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Resources.ResourceManager.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Resources.ResourceManager.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.CompilerServices.Unsafe.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.CompilerServices.Unsafe.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Web.HttpUtility.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Web.HttpUtility.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.CompilerServices.VisualC.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.CompilerServices.VisualC.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Handles.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Handles.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.InteropServices.RuntimeInformation.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.InteropServices.RuntimeInformation.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.InteropServices.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.InteropServices.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Intrinsics.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Intrinsics.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.XPath.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.XPath.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Numerics.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Numerics.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Serialization.Formatters.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Serialization.Formatters.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Serialization.Primitives.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Serialization.Primitives.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Serialization.Xml.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Serialization.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.Serialization.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.Serialization.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Runtime.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Runtime.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.AccessControl.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.AccessControl.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Cryptography.Algorithms.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Cryptography.Algorithms.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Cryptography.Cng.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Cryptography.Cng.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Cryptography.Csp.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Cryptography.Csp.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Cryptography.Encoding.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Cryptography.Encoding.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Cryptography.X509Certificates.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Cryptography.X509Certificates.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.Principal.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.Principal.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Security.SecureString.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Security.SecureString.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.ServiceProcess.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.ServiceProcess.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Text.Encoding.CodePages.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Text.Encoding.CodePages.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Text.RegularExpressions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Text.RegularExpressions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Channels.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Channels.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Overlapped.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Overlapped.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Tasks.Dataflow.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Tasks.Dataflow.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Tasks.Extensions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Tasks.Extensions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Thread.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Thread.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Threading.Timer.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Threading.Timer.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Transactions.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Transactions.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.Linq.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.Linq.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.ReaderWriter.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.ReaderWriter.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.XDocument.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.XDocument.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.XPath.XDocument.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.XPath.XDocument.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.XmlSerializer.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.XmlSerializer.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Xml.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Xml.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\WindowsBase.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\WindowsBase.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\mscorlib.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\mscorlib.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\netstandard.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\netstandard.dll",
         "SkipReason": "File is a .NET runtime assembly."
       },
       {
-        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.13\\System.Private.CoreLib.dll",
+        "FilePath": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\5.0.17\\System.Private.CoreLib.dll",
         "SkipReason": "File is a .NET runtime assembly."
       }
     ],
@@ -2102,11 +2102,11 @@
     }
   ],
   "Hosting": {
-    "HostId": "8e55ac1e-d302-4942-dd40-0fc76062214a",
+    "HostId": "4fab28e6-4df3-0256-bc10-b859f6d10d81",
     "HostDisplayName": "DESKTOP-BHPS316",
     "MachineName": "DESKTOP-BHPS316",
     "OSPlatform": 2,
-    "OSVersion": "Microsoft Windows NT 10.0.22000.0",
+    "OSVersion": "Microsoft Windows NT 10.0.22621.0",
     "IsServerGC": true,
     "GCLatencyMode": 1,
     "ProcessorCount": 8,
@@ -2114,27 +2114,27 @@
     "CLRVersion": {
       "Major": 5,
       "Minor": 0,
-      "Build": 13,
+      "Build": 17,
       "Revision": -1,
       "MajorRevision": -1,
       "MinorRevision": -1
     },
-    "WorkingSet": 111030272,
+    "WorkingSet": 139472896,
     "SystemPageSize": 4096,
     "HostName": "DESKTOP-BHPS316",
     "UserName": "ricar",
-    "PathToExe": "C:\\Users\\ricar\\source\\repos\\ProjetosRabbitMq\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NServiceBusRabbitMq.dll"
+    "PathToExe": "C:\\_GIT\\Meus Projetos Testes\\NServiceBusRabbitMq\\bin\\Debug\\net5.0\\NServiceBusRabbitMq.dll"
   },
   "Licensing": {
     "RegisteredTo": null,
     "LicenseType": "Trial",
     "Edition": null,
     "Tier": null,
-    "LicenseStatus": 0,
+    "LicenseStatus": 5,
     "LicenseLocation": "Trial License",
     "ValidApplications": "All",
     "CommercialLicense": false,
-    "IsExpired": false,
+    "IsExpired": true,
     "ExpirationDate": "2022-02-05T00:00:00.0000000",
     "UpgradeProtectionExpirationDate": null
   },
@@ -2145,12 +2145,12 @@
     ],
     "NumberOfMessagesFoundAtStartup": 6,
     "Messages": [
-      "NServiceBusRabbitMq.Events.VisaBradescoPagoEvent",
-      "NServiceBusRabbitMq.Events.NeonPagoEvent",
+      "NServiceBusRabbitMq.Commands.PagamentoNuBankCommand",
       "NServiceBusRabbitMq.Events.NuBankPagoEvent",
-      "NServiceBusRabbitMq.Commands.PagamentoNeonCommand",
       "NServiceBusRabbitMq.Commands.PagamentoVisaBradescoCommand",
-      "NServiceBusRabbitMq.Commands.PagamentoNuBankCommand"
+      "NServiceBusRabbitMq.Commands.PagamentoNeonCommand",
+      "NServiceBusRabbitMq.Events.NeonPagoEvent",
+      "NServiceBusRabbitMq.Events.VisaBradescoPagoEvent"
     ]
   },
   "NServiceBus.Persistence.NHibernate.Sagas": {

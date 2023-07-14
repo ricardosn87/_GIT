@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UAJZHybtB7Wm58UKQ/WAPmeouZP75mtLhOqIMWQyqmaGx2gDJQQ8jqMqo4GoM5AhaKgYdosMFE3YatURHILvHw==",
+  "dgSpecHash": "BDcB9TY5IMaWZ9oNn1oWFVQivlNEttnVTxtQVx7c/AVitrNjgHJeZVTn3MjZcFT55QeEPqj0tpWZ0B6v26XfyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\04 - BDD\\tests\\NerdStore.BDD.Tests\\NerdStore.BDD.Tests.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\04 - BDD\\tests\\NerdStore.BDD.Tests\\NerdStore.BDD.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\gherkin\\6.0.0\\gherkin.6.0.0.nupkg.sha512",

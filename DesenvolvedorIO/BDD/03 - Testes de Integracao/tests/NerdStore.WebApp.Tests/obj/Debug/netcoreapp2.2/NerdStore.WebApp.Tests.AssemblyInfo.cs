@@ -11,24 +11,19 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Features", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\01 - Testes de Unidade\\Features", "Features.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Features.Tests", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\01 - Testes de Unidade\\Features.T" +
-    "ests", "Features.Tests.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Application", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\03 - Testes de Integracao\\src\\Ner" +
-    "dStore.Catalogo.Application", "NerdStore.Catalogo.Application.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Data", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\03 - Testes de Integracao\\src\\Ner" +
-    "dStore.Catalogo.Data", "NerdStore.Catalogo.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Domain", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\03 - Testes de Integracao\\src\\Ner" +
-    "dStore.Catalogo.Domain", "NerdStore.Catalogo.Domain.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Core", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\02 - TDD\\src\\NerdStore.Core", "NerdStore.Core.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Application", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.App" +
-    "lication", "NerdStore.Vendas.Application.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Data", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.Dat" +
-    "a", "NerdStore.Vendas.Data.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Domain", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.Dom" +
-    "ain", "NerdStore.Vendas.Domain.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.WebApp.MVC", "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\03 - Testes de Integracao\\src\\Ner" +
-    "dStore.WebApp.MVC", "NerdStore.WebApp.MVC.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Features", "C:\\_GIT\\DesenvolvedorIO\\BDD\\01 - Testes de Unidade\\Features", "Features.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Features.Tests", "C:\\_GIT\\DesenvolvedorIO\\BDD\\01 - Testes de Unidade\\Features.Tests", "Features.Tests.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Application", "C:\\_GIT\\DesenvolvedorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Appl" +
+    "ication", "NerdStore.Catalogo.Application.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Data", "C:\\_GIT\\DesenvolvedorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Data" +
+    "", "NerdStore.Catalogo.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Catalogo.Domain", "C:\\_GIT\\DesenvolvedorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Doma" +
+    "in", "NerdStore.Catalogo.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Core", "C:\\_GIT\\DesenvolvedorIO\\BDD\\02 - TDD\\src\\NerdStore.Core", "NerdStore.Core.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Application", "C:\\_GIT\\DesenvolvedorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.Application", "NerdStore.Vendas.Application.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Data", "C:\\_GIT\\DesenvolvedorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.Data", "NerdStore.Vendas.Data.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.Vendas.Domain", "C:\\_GIT\\DesenvolvedorIO\\BDD\\02 - TDD\\src\\NerdStore.Vendas.Domain", "NerdStore.Vendas.Domain.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NerdStore.WebApp.MVC", "C:\\_GIT\\DesenvolvedorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.WebApp.MVC", "NerdStore.WebApp.MVC.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NerdStore.WebApp.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

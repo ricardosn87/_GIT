@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NiaP6duxo/9WUCsUy/umDOJSSNefYW48FrhIQUQ3talpCTP1hTDNSZSr4I2lCmPJfwP2DCg9DLqfbiGckHtjIA==",
+  "dgSpecHash": "jcV4pMsnCCRhtH8BFGcrunZstjXE3VkuQCMSvXC7ZMZE9DRfKKvKvqpMv8D6/QwsY2MCmrARETjDxjKujjly7Q==",
   "success": true,
   "projectFilePath": "C:\\_GIT\\Meus Projetos Testes\\WebApplication2\\EasyNetQBus2.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
         "net5.0"

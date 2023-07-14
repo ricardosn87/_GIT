@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1nwKns8s5jZMRMvwEpR9CXSOlfkE33CkF8e3E41TYVB5/piH8eMSpAF6xkVHt07KnyhGpNzRqcIZ/2XdzRKbhQ==",
+  "dgSpecHash": "pKHLaYSYNa/xdUeEqVZSGrbilT5gCFqI8ilZsAFYP5UK/kqyvcEPaQqwpRvR47Jmd2Pdwl1VinJWTLGcSMOMXw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\03 - Testes de Integracao\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",

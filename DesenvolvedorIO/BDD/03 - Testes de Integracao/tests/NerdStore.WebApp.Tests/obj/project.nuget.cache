@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "06ueVgxd1/X5S5wmFD6rOBj98E9jpk6VOfvx6Cu7H0y2LKQxr8l2s/txBf45j21nIbrjYko9HcZ+1tYuxU1iYA==",
+  "dgSpecHash": "+UrzknZqBz01zgWTN89pZSKvVS0DqWCoOHS4Rqz0ZFHPaJIrOdxeatfXoAwf7uQbIUleAjjkapTGSjWyKKyg4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\03 - Testes de Integracao\\tests\\NerdStore.WebApp.Tests\\NerdStore.WebApp.Tests.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\03 - Testes de Integracao\\tests\\NerdStore.WebApp.Tests\\NerdStore.WebApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\anglesharp\\0.13.0\\anglesharp.0.13.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",

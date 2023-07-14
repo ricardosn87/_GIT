@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QWzHNFnUFn2W8Z0l5M3NnTam/qd/mBM3WFY+Ll6UPl/1LmwZuLLg08dEI6iFFMudYQ7LkfxtNOPmprGlDJwoIw==",
+  "dgSpecHash": "Upd+ZdZYnLAY0U3V1od3vux7zp8fzRQ0BDWCNOXm7Ka5xo4r6Tx3yF+MZVFp1YJMRgOoYGK94aGw3bEMJMkRyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\BDD\\01 - Testes de Unidade\\Demo\\Demo.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\BDD\\01 - Testes de Unidade\\Demo\\Demo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DQSsfxNNDq+3iA28r9uX35itNcaIHZZPU8eOLyHnZfGg9IZMuwpYEYGqv+q5YO2ag6BkHsEOaM1C4SkIPVDElw==",
+  "dgSpecHash": "aOMj/Y4ZXLwV2WIgwkjq5mAo9xsU67X4cEnd56vjt7GtVu9R58Flyrv055osJtQprHUhH6T69yZv+7pZ6IKqqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\CQRS\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\CQRS\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",
