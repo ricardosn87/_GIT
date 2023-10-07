@@ -11,3 +11,16 @@ C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pagamento
 C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.csproj.CopyComplete
 C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.dll
 C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.pdb
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\bin\Debug\netcoreapp2.2\Pagamento.deps.json
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\bin\Debug\netcoreapp2.2\Pagamento.dll
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\bin\Debug\netcoreapp2.2\Pagamento.pdb
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\bin\Debug\netcoreapp2.2\Core.dll
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\bin\Debug\netcoreapp2.2\Core.pdb
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.csproj.AssemblyReference.cache
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.AssemblyInfoInputs.cache
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.AssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.csproj.CoreCompileInputs.cache
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.csproj.CopyComplete
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.dll
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pagamento\obj\Debug\netcoreapp2.2\Pagamento.pdb

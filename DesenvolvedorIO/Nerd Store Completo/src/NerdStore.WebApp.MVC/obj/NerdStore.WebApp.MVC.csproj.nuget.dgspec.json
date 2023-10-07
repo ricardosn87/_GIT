@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {}
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj",
         "projectName": "EventSourcing",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\EventSourcing\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\EventSourcing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +33,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               }
             }
           }
@@ -72,24 +74,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
         "projectName": "NerdStore.Catalogo.Application",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,11 +107,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
               }
             }
           }
@@ -143,24 +147,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
         "projectName": "NerdStore.Catalogo.Data",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,11 +180,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               }
             }
           }
@@ -222,24 +228,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
         "projectName": "NerdStore.Catalogo.Domain",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -253,8 +261,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               }
             }
           }
@@ -290,24 +298,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj",
         "projectName": "NerdStore.Core",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -358,24 +368,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
         "projectName": "NerdStore.Pagamentos.AntiCorruption",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -389,8 +401,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
               }
             }
           }
@@ -422,24 +434,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj",
         "projectName": "NerdStore.Pagamentos.Business",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -453,8 +467,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               }
             }
           }
@@ -486,24 +500,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj",
         "projectName": "NerdStore.Pagamentos.Data",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -517,11 +533,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Business\\NerdStore.Pagamentos.Business.csproj"
               }
             }
           }
@@ -565,24 +581,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
         "projectName": "NerdStore.Vendas.Application",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -596,11 +614,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
               }
             }
           }
@@ -632,24 +650,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
         "projectName": "NerdStore.Vendas.Data",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -663,11 +683,11 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj"
               }
             }
           }
@@ -711,24 +731,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
         "projectName": "NerdStore.Vendas.Domain",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\NerdStore.Vendas.Domain.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -742,8 +764,8 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               }
             }
           }
@@ -775,24 +797,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {
+    "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+        "projectUniqueName": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
         "projectName": "NerdStore.WebApp.MVC",
-        "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
+        "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\NerdStore.WebApp.MVC.csproj",
         "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\obj\\",
+        "outputPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.WebApp.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -806,32 +830,32 @@
           "netcoreapp2.2": {
             "targetAlias": "netcoreapp2.2",
             "projectReferences": {
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Application\\NerdStore.Catalogo.Application.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Data\\NerdStore.Catalogo.Data.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Catalogo.Domain\\NerdStore.Catalogo.Domain.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Core\\NerdStore.Core.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.Data\\NerdStore.Pagamentos.Data.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Application\\NerdStore.Vendas.Application.csproj"
               },
-              "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
-                "projectPath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj"
+              "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj": {
+                "projectPath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Vendas.Data\\NerdStore.Vendas.Data.csproj"
               }
             }
           }
@@ -886,7 +910,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.121\\RuntimeIdentifierGraph.json"
         }
       }
     }

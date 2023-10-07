@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using FluentValidation.Results;
+using NSE.Core.Data;
 using SexFriend.Core.Data;
 
 namespace NSE.Core.Messages

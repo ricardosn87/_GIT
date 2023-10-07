@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9c0Se2BQA5uths33Nmynqb11ibwhSEcG+pHZybz7mvfh6hZPuCraOBbOBCKpYIiaM5flpPOsc9Jg9EhYUC/wfA==",
+  "dgSpecHash": "65PhUvEFpFoppUpbVooKI0hb3Klj9YZ9z3KKlKzn/CgR5K04tk81AQx2MmQ/UpbWCzeOJJhrEuDJvvdFYdM65g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\NerdStore.Pagamentos.AntiCorruption\\NerdStore.Pagamentos.AntiCorruption.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\mediatr\\7.0.0\\mediatr.7.0.0.nupkg.sha512",

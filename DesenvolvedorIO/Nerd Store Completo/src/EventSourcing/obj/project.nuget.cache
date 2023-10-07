@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kz1uyJ6tG2K49xT/gJ0KdDLq0tAnPP+uOChVXVf+h/5rbH5Whliw5uizklJw+KaFxKDDPsPtn1MWwOQup84+5w==",
+  "dgSpecHash": "+QV7osWuMc1/G5xI7XJb10t/hNLUNSfH6ZWj2TlVeVf5GuFpXIkfOpXckWRa/YT/LvtegVZP7jldBUeJGxGbKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\DesenvovledorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj",
+  "projectFilePath": "C:\\_GIT\\DesenvolvedorIO\\Nerd Store Completo\\src\\EventSourcing\\EventSourcing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ricar\\.nuget\\packages\\eventstore.client\\5.0.2\\eventstore.client.5.0.2.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\fluentvalidation\\8.4.0\\fluentvalidation.8.4.0.nupkg.sha512",

@@ -11,3 +11,16 @@ C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pedido\ob
 C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.csproj.CopyComplete
 C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.dll
 C:\Users\ricar\source\repos\DesenvovledorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.pdb
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\bin\Debug\netcoreapp2.2\Pedido.deps.json
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\bin\Debug\netcoreapp2.2\Pedido.dll
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\bin\Debug\netcoreapp2.2\Pedido.pdb
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\bin\Debug\netcoreapp2.2\Core.dll
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\bin\Debug\netcoreapp2.2\Core.pdb
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.csproj.AssemblyReference.cache
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.GeneratedMSBuildEditorConfig.editorconfig
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.AssemblyInfoInputs.cache
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.AssemblyInfo.cs
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.csproj.CoreCompileInputs.cache
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.csproj.CopyComplete
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.dll
+C:\_GIT\DesenvolvedorIO\Sagas - Service Bus e MSMQ\Pedido\obj\Debug\netcoreapp2.2\Pedido.pdb
