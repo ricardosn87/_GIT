@@ -18,7 +18,7 @@ namespace RichardInvestments.API.Controllers
         {
             _ratesService = ratesService;
         }
-        // GET: api/<RateController>
+       
         [HttpGet("Equivalence/{rate}/{havePeriod}/{wantPeriod}")]
         public async Task<IActionResult> Equivalence([FromRoute] decimal rate,[FromRoute] int havePeriod, [FromRoute] int wantPeriod)
         {
