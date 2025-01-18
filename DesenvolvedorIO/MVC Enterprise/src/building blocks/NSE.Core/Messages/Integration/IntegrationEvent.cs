@@ -1,9 +1,0 @@
-﻿using System;
-
-namespace SexFriend.Core.Messages.Integration
-{
-    public abstract class IntegrationEvent : Event
-    {
-      
-    }
-}

@@ -1,9 +1,0 @@
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\bin\Debug\netcoreapp2.2\Demo.deps.json
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\bin\Debug\netcoreapp2.2\Demo.dll
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\bin\Debug\netcoreapp2.2\Demo.pdb
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfoInputs.cache
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.AssemblyInfo.cs
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.csproj.CoreCompileInputs.cache
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.dll
-C:\Users\ricar\source\repos\DesenvovledorIO\Teste Automatizado\01 - Testes de Unidade\Demo\obj\Debug\netcoreapp2.2\Demo.pdb
